@@ -21,16 +21,19 @@ parsed_data = {}
 corpus = []
 corpus_embeddings = []
 
-for root, _, files in os.walk('parsed_data'):
-    for file in files:
-        if file.endswith('.txt'):
-            file_path = os.path.join(root, file)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-                parsed_data[file] = content
-                corpus.append(content)
-
-corpus_embeddings = embedder.encode(corpus, convert_to_tensor=True)
+def load_data():
+    global parsed_data, corpus, corpus_embeddings
+    parsed_data = {}
+    corpus = []
+    for root, _, files in os.walk('parsed_data'):
+        for file in files:
+            if file.endswith('.txt'):
+                file_path = os.path.join(root, file)
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    parsed_data[file] = content
+                    corpus.append(content)
+    corpus_embeddings = embedder.encode(corpus, convert_to_tensor=True)
 
 @app.route('/api/chatbot', methods=['POST'])
 def chatbot():
@@ -62,5 +65,6 @@ def ping():
     return "Pong!", 200
 
 if __name__ == '__main__':
+    load_data()
     port = int(os.getenv('PORT', 5000))
     app.run(debug=True, host='0.0.0.0', port=port)
