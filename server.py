@@ -42,13 +42,18 @@ def chatbot():
     if not response:
         return jsonify({'error': 'Failed to get response from Gemini API'}), 500
 
-    query_embedding = embedder.encode(user_input, convert_to_tensor=True) # finding the embedding of the user input
+    query_embedding = embedder.encode(user_input, convert_to_tensor=True)
     hits = util.semantic_search(query_embedding, corpus_embeddings, top_k=3)
+    
+    threshold = 0.75
     relevant_info = ""
     for hit in hits[0]:
-        relevant_info += f"\n\nAdditional info from {list(parsed_data.keys())[hit['corpus_id']]}:\n{corpus[hit['corpus_id']][:500]}..."  
+        if hit['score'] > threshold:
+            relevant_info += f"\n\nAdditional info from {list(parsed_data.keys())[hit['corpus_id']]}:\n{corpus[hit['corpus_id']][:500]}..."
 
-    enhanced_response = response.text + relevant_info
+    enhanced_response = response.text
+    if relevant_info:
+        enhanced_response += relevant_info
 
     return jsonify({'response': enhanced_response})
 
