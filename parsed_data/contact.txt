@@ -1,0 +1,10 @@
+Contact
+Join us at Sugar-devel mailing list
+http://lists.sugarlabs.org/listinfo/sugar-devel.
+We have a Matrix channel where real time discussions mostly happen. 
+Some important channels are:
+* #sugar:matrix.org: General Sugar Labs discussion
+* #sugar-systems:matrix.org: Questions and discussion about Sugar Labs Infrastructure.
+* #music-blocks:matrix.org: Share your projects and asks questions about Music Blocks (musicblocks.sugarlabs.org)
+* #musicblocksdev:matrix.org: Development for Music Blocks visual programming language.
+For Sugarizer specific discussions, join the Discord server.
