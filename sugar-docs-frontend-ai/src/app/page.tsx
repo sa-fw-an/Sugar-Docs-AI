@@ -51,7 +51,7 @@ export default function Home() {
     setIsGenerating(true);
 
     try {
-      const response = await axios.post<ChatbotResponse>('http://localhost:5000/api/chatbot', { input });
+      const response = await axios.post<ChatbotResponse>(process.env.NEXT_PUBLIC_API_URL, { input });
       const botMessage: Message = { sender: "assistant", text: response.data.response };
       setMessages([...messages, userMessage, botMessage]);
     } catch (error) {

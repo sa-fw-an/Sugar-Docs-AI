@@ -57,7 +57,7 @@ def chatbot():
 
     return jsonify({'response': enhanced_response})
 
-@app.route('/ping', methods=['GET'])
+@app.route('/areyoualive', methods=['GET'])
 def ping():
     return "Pong!", 200
 
