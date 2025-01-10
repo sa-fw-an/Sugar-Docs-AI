@@ -51,7 +51,12 @@ export default function Home() {
     setIsGenerating(true);
 
     try {
-      const response = await axios.post<ChatbotResponse>(process.env.NEXT_PUBLIC_API_URL, { input });
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+      if (!apiUrl) {
+        throw new Error("API URL is not defined");
+      }
+
+      const response = await axios.post<ChatbotResponse>(apiUrl, { input });
       const botMessage: Message = { sender: "assistant", text: response.data.response };
       setMessages([...messages, userMessage, botMessage]);
     } catch (error) {
