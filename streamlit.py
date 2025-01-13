@@ -6,7 +6,6 @@ from flask import Flask, request, jsonify
 import google.generativeai as genai
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer, util
-import torch
 
 app = Flask(__name__)
 
@@ -61,9 +60,6 @@ def chatbot():
 
     return jsonify({'response': enhanced_response})
 
-@app.route('/areyoualive', methods=['GET'])
-def ping():
-    return "Pong!", 200
 
 def run_flask():
     load_data()
