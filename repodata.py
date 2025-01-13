@@ -3,7 +3,6 @@ import os
 import logging
 from datetime import datetime
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -14,7 +13,6 @@ def fetch_repositories():
     all_repos = []
     
     try:
-        # Handle pagination
         while url:
             response = requests.get(url)
             if response.status_code != 200:
@@ -67,11 +65,9 @@ def save_repo_data():
     output_dir = "parsed_data"
     os.makedirs(output_dir, exist_ok=True)
     
-    # Fetch and format repository data
     repos = fetch_repositories()
     formatted_repos = format_repo_data(repos)
     
-    # Save each repository's data
     timestamp = datetime.now().strftime("%Y%m%d")
     for name, content in formatted_repos:
         filename = f"{output_dir}/repo_{name}_{timestamp}.txt"

@@ -40,6 +40,8 @@ def load_data():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read().strip()
                         if content:  
+                            if 'repo_' in file:
+                                content = f"Repository Information: {content}"
                             state.parsed_data[file] = content
                             state.corpus.append(content)
                             logger.info(f"Loaded file: {file} (length: {len(content)})")
