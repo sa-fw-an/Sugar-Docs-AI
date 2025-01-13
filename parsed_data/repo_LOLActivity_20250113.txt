@@ -1,0 +1,12 @@
+
+Repository: LOLActivity
+Description: A small game for the Sugar learning platform
+URL: https://github.com/sugarlabs/LOLActivity
+Primary Language: JavaScript
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2018-11-05T22:20:45Z
+Default Branch: master
+License: Apache License 2.0
+---

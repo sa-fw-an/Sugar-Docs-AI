@@ -1,0 +1,12 @@
+
+Repository: story
+Description: The Sugar Story activity
+URL: https://github.com/sugarlabs/story
+Primary Language: Python
+Stars: 1
+Forks: 15
+Topics: 
+Last Updated: 2021-05-04T09:51:11Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

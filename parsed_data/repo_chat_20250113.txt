@@ -1,0 +1,12 @@
+
+Repository: chat
+Description: The Sugar chat activity
+URL: https://github.com/sugarlabs/chat
+Primary Language: Python
+Stars: 5
+Forks: 24
+Topics: 
+Last Updated: 2024-04-01T09:14:26Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

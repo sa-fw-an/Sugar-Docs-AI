@@ -1,0 +1,12 @@
+
+Repository: distance-activity
+Description: Sugar desktop Python activity Distance, for measuring distance between two computers using sound; requires speaker and microphone.
+URL: https://github.com/sugarlabs/distance-activity
+Primary Language: Python
+Stars: 1
+Forks: 6
+Topics: 
+Last Updated: 2023-03-26T07:47:20Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

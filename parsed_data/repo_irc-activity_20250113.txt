@@ -1,0 +1,12 @@
+
+Repository: irc-activity
+Description: A irc activity for Sugar the learning environment
+URL: https://github.com/sugarlabs/irc-activity
+Primary Language: Python
+Stars: 2
+Forks: 9
+Topics: 
+Last Updated: 2025-01-11T20:23:48Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

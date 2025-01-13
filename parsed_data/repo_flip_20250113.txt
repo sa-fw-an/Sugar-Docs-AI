@@ -1,0 +1,12 @@
+
+Repository: flip
+Description: No description available
+URL: https://github.com/sugarlabs/flip
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2022-03-25T21:31:20Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: iknowUruguay
+Description: A sugar game about he geography of Uruguay
+URL: https://github.com/sugarlabs/iknowUruguay
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2024-10-31T02:51:38Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: sugarizer-school-portal-server
+Description: No description available
+URL: https://github.com/sugarlabs/sugarizer-school-portal-server
+Primary Language: Not specified
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2025-01-06T15:12:14Z
+Default Branch: master
+License: Apache License 2.0
+---

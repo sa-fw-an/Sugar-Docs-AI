@@ -1,0 +1,12 @@
+
+Repository: JClic
+Description: JClic Sugar activity
+URL: https://github.com/sugarlabs/JClic
+Primary Language: JavaScript
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2018-08-02T02:16:32Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

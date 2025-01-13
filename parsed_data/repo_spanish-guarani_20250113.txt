@@ -1,0 +1,12 @@
+
+Repository: spanish-guarani
+Description: It's a sugar activity, and it work like a translater.
+URL: https://github.com/sugarlabs/spanish-guarani
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2018-06-27T00:58:50Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

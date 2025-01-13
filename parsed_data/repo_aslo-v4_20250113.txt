@@ -1,0 +1,12 @@
+
+Repository: aslo-v4
+Description: A simple app store for sugarlabs
+URL: https://github.com/sugarlabs/aslo-v4
+Primary Language: Python
+Stars: 7
+Forks: 14
+Topics: bundles, sugar, sugarlabs, xo-files
+Last Updated: 2024-12-24T08:16:23Z
+Default Branch: master
+License: GNU Affero General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: turtleart-activity
+Description: A block-based Logo programming environment
+URL: https://github.com/sugarlabs/turtleart-activity
+Primary Language: Python
+Stars: 18
+Forks: 54
+Topics: 
+Last Updated: 2024-10-21T11:54:44Z
+Default Branch: master
+License: MIT License
+---

@@ -1,0 +1,12 @@
+
+Repository: activity-turtle-flags
+Description: No description available
+URL: https://github.com/sugarlabs/activity-turtle-flags
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2020-08-29T11:29:15Z
+Default Branch: master
+License: MIT License
+---

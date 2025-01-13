@@ -1,0 +1,12 @@
+
+Repository: training-activity
+Description: training activity for Sugar
+URL: https://github.com/sugarlabs/training-activity
+Primary Language: Python
+Stars: 9
+Forks: 3
+Topics: 
+Last Updated: 2024-02-02T08:36:53Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

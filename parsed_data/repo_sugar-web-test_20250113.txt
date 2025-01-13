@@ -1,0 +1,12 @@
+
+Repository: sugar-web-test
+Description: Sugar web automated tests helper
+URL: https://github.com/sugarlabs/sugar-web-test
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2016-05-16T13:28:56Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

@@ -1,0 +1,12 @@
+
+Repository: triples
+Description: Port of Peter Hewitt triples game
+URL: https://github.com/sugarlabs/triples
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2020-02-24T03:27:47Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

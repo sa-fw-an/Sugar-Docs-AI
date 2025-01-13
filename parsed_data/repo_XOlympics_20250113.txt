@@ -1,0 +1,12 @@
+
+Repository: XOlympics
+Description: XOlympics Sugar activity
+URL: https://github.com/sugarlabs/XOlympics
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2018-01-22T23:47:32Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

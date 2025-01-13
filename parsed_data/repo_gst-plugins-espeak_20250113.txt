@@ -1,0 +1,12 @@
+
+Repository: gst-plugins-espeak
+Description: GStreamer espeak plugin
+URL: https://github.com/sugarlabs/gst-plugins-espeak
+Primary Language: C
+Stars: 3
+Forks: 2
+Topics: 
+Last Updated: 2023-06-19T22:22:06Z
+Default Branch: master
+License: Other
+---

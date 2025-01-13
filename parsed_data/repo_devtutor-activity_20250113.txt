@@ -1,0 +1,12 @@
+
+Repository: devtutor-activity
+Description: DevTutor is an activity which helps in understanding the API provided by Sugar.
+URL: https://github.com/sugarlabs/devtutor-activity
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2019-02-04T09:41:39Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

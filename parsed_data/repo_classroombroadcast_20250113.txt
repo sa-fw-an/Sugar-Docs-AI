@@ -1,0 +1,12 @@
+
+Repository: classroombroadcast
+Description: No description available
+URL: https://github.com/sugarlabs/classroombroadcast
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2024-10-31T22:26:59Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

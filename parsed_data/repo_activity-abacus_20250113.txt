@@ -1,0 +1,12 @@
+
+Repository: activity-abacus
+Description: a tool for simple arithmetic calculations
+URL: https://github.com/sugarlabs/activity-abacus
+Primary Language: Python
+Stars: 4
+Forks: 14
+Topics: 
+Last Updated: 2025-01-03T19:58:54Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

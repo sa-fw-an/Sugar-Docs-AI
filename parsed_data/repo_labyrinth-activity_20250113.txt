@@ -1,0 +1,12 @@
+
+Repository: labyrinth-activity
+Description: Labyrinth is a lightweight mind-mapping activity allowing text, images, and drawings to be connected together to help explore and document ideas. It is a fork from a GNOME desktop application of the same name; reworked to run as a well behaving Sugar activity.
+URL: https://github.com/sugarlabs/labyrinth-activity
+Primary Language: Python
+Stars: 2
+Forks: 11
+Topics: 
+Last Updated: 2025-01-04T04:28:30Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

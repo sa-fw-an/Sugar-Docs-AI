@@ -1,0 +1,12 @@
+
+Repository: i-can-read-activity
+Description: No description available
+URL: https://github.com/sugarlabs/i-can-read-activity
+Primary Language: Python
+Stars: 1
+Forks: 10
+Topics: 
+Last Updated: 2020-02-18T06:21:15Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

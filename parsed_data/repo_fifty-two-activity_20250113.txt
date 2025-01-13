@@ -1,0 +1,12 @@
+
+Repository: fifty-two-activity
+Description: No description available
+URL: https://github.com/sugarlabs/fifty-two-activity
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2024-05-04T08:59:10Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

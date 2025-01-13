@@ -1,0 +1,12 @@
+
+Repository: aslo-v2-unused
+Description: UNMAINTAINED A rewrite of the SugarLabs activity library
+URL: https://github.com/sugarlabs/aslo-v2-unused
+Primary Language: CSS
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2019-02-20T04:38:50Z
+Default Branch: master
+License: GNU Affero General Public License v3.0
+---

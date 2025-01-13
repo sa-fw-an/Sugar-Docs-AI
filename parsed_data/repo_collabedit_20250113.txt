@@ -1,0 +1,12 @@
+
+Repository: collabedit
+Description: A collaborative text editor widget that sugar activities can embed.
+URL: https://github.com/sugarlabs/collabedit
+Primary Language: Python
+Stars: 1
+Forks: 4
+Topics: 
+Last Updated: 2019-12-23T06:23:25Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

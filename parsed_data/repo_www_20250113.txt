@@ -1,0 +1,12 @@
+
+Repository: www
+Description: The Sugar Labs web site
+URL: https://github.com/sugarlabs/www
+Primary Language: HTML
+Stars: 76
+Forks: 246
+Topics: hacktoberfest
+Last Updated: 2025-01-12T20:21:08Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

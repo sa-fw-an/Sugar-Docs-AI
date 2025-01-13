@@ -1,0 +1,12 @@
+
+Repository: teachteacher-activity
+Description: Tsquare is an activity for all the OLPC trainers scattered throughout the world.
+URL: https://github.com/sugarlabs/teachteacher-activity
+Primary Language: Python
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2019-02-03T10:55:24Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

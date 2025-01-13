@@ -1,0 +1,12 @@
+
+Repository: clipart
+Description: clip art activity for Sugar
+URL: https://github.com/sugarlabs/clipart
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2024-11-01T04:26:59Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

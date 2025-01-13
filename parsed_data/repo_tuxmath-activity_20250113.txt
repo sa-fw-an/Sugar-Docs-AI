@@ -1,0 +1,12 @@
+
+Repository: tuxmath-activity
+Description: TuxMath is an arcade game that helps people practice their math facts.
+URL: https://github.com/sugarlabs/tuxmath-activity
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-28T17:59:01Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: sugarchess
+Description: A gnuchess implementation for Sugar
+URL: https://github.com/sugarlabs/sugarchess
+Primary Language: Python
+Stars: 3
+Forks: 11
+Topics: 
+Last Updated: 2021-04-02T10:58:06Z
+Default Branch: master
+License: Apache License 2.0
+---

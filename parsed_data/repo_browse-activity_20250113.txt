@@ -1,0 +1,12 @@
+
+Repository: browse-activity
+Description: Sugar activity to browse the internet; WebKit on GTK on Sugar Toolkit
+URL: https://github.com/sugarlabs/browse-activity
+Primary Language: Python
+Stars: 8
+Forks: 44
+Topics: 
+Last Updated: 2024-11-09T23:41:34Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

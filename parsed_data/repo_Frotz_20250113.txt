@@ -1,0 +1,12 @@
+
+Repository: Frotz
+Description: Frotz Sugar activity
+URL: https://github.com/sugarlabs/Frotz
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2025-01-11T20:20:06Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

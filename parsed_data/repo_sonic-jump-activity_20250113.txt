@@ -1,0 +1,12 @@
+
+Repository: sonic-jump-activity
+Description: An arcade game for Sugar.
+URL: https://github.com/sugarlabs/sonic-jump-activity
+Primary Language: Python
+Stars: 1
+Forks: 8
+Topics: 
+Last Updated: 2024-05-24T14:03:06Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: Lemonade
+Description: Lemonade Sugar activity
+URL: https://github.com/sugarlabs/Lemonade
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2023-09-18T16:25:43Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

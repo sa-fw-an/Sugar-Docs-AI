@@ -1,0 +1,12 @@
+
+Repository: sugar-datastore
+Description: Sugar datastore service
+URL: https://github.com/sugarlabs/sugar-datastore
+Primary Language: Python
+Stars: 6
+Forks: 14
+Topics: 
+Last Updated: 2023-05-03T09:48:49Z
+Default Branch: master
+License: Other
+---

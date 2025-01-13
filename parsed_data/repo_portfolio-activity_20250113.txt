@@ -1,0 +1,12 @@
+
+Repository: portfolio-activity
+Description: a portfolio for the Sugar Journal
+URL: https://github.com/sugarlabs/portfolio-activity
+Primary Language: Python
+Stars: 0
+Forks: 10
+Topics: 
+Last Updated: 2021-05-04T09:50:29Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

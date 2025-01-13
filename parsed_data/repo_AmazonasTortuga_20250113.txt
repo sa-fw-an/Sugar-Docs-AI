@@ -1,0 +1,12 @@
+
+Repository: AmazonasTortuga
+Description: Special version of Turtle Art for Amazonas region of Peru
+URL: https://github.com/sugarlabs/AmazonasTortuga
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2018-08-06T09:32:01Z
+Default Branch: master
+License: MIT License
+---

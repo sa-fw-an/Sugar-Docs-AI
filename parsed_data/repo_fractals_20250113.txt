@@ -1,0 +1,12 @@
+
+Repository: fractals
+Description: Fractals is a fractal simulation activity for the Sugar desktop.
+URL: https://github.com/sugarlabs/fractals
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2024-10-10T17:43:54Z
+Default Branch: main
+License: GNU General Public License v3.0
+---

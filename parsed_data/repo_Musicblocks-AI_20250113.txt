@@ -1,0 +1,12 @@
+
+Repository: Musicblocks-AI
+Description: No description available
+URL: https://github.com/sugarlabs/Musicblocks-AI
+Primary Language: Python
+Stars: 2
+Forks: 3
+Topics: 
+Last Updated: 2024-10-26T12:02:54Z
+Default Branch: main
+License: GNU Affero General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: Pippy
+Description: Pippy allows the student to examine, execute, and modify simple Python programs.  In addition it is possible to write Python statements to play sounds, calculate  expressions, or make simple text based interactive games.
+URL: https://github.com/sugarlabs/Pippy
+Primary Language: Python
+Stars: 11
+Forks: 34
+Topics: 
+Last Updated: 2024-08-12T19:13:39Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

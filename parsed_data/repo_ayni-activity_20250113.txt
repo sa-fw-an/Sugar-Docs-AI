@@ -1,0 +1,12 @@
+
+Repository: ayni-activity
+Description: No description available
+URL: https://github.com/sugarlabs/ayni-activity
+Primary Language: Python
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2018-07-14T04:25:10Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

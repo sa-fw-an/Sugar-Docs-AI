@@ -1,0 +1,12 @@
+
+Repository: typing-turtle-activity
+Description: A typing tutor for the sugar learning environment
+URL: https://github.com/sugarlabs/typing-turtle-activity
+Primary Language: Python
+Stars: 4
+Forks: 10
+Topics: 
+Last Updated: 2020-09-20T23:58:56Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

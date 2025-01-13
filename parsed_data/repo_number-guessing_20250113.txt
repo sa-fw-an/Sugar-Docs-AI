@@ -1,0 +1,12 @@
+
+Repository: number-guessing
+Description: Number Guessing is a mathematical game for the Sugar Desktop
+URL: https://github.com/sugarlabs/number-guessing
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2024-09-18T16:57:13Z
+Default Branch: main
+License: GNU General Public License v3.0
+---

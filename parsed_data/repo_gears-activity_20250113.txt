@@ -1,0 +1,12 @@
+
+Repository: gears-activity
+Description: A Sugar activity that wraps the awesome GearSketch
+URL: https://github.com/sugarlabs/gears-activity
+Primary Language: JavaScript
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2019-05-28T03:31:20Z
+Default Branch: master
+License: Apache License 2.0
+---

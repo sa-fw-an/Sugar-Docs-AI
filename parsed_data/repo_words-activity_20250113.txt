@@ -1,0 +1,12 @@
+
+Repository: words-activity
+Description: A multilingual dictionary activity for the Sugar environment
+URL: https://github.com/sugarlabs/words-activity
+Primary Language: Python
+Stars: 2
+Forks: 12
+Topics: 
+Last Updated: 2024-10-31T20:26:59Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

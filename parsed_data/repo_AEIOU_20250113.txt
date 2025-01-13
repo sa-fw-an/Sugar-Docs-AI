@@ -1,0 +1,12 @@
+
+Repository: AEIOU
+Description: language game
+URL: https://github.com/sugarlabs/AEIOU
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2021-05-04T09:52:48Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

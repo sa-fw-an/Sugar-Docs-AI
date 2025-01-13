@@ -1,0 +1,12 @@
+
+Repository: automake
+Description: Automake with fast python installation
+URL: https://github.com/sugarlabs/automake
+Primary Language: Shell
+Stars: 3
+Forks: 3
+Topics: 
+Last Updated: 2016-05-16T13:27:14Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

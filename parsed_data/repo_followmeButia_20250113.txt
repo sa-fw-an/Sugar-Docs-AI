@@ -1,0 +1,12 @@
+
+Repository: followmeButia
+Description: A sugar activity to use a camera as color tracker for Butia robot
+URL: https://github.com/sugarlabs/followmeButia
+Primary Language: Python
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2017-11-05T21:05:35Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

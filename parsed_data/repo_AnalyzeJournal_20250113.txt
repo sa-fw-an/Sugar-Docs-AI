@@ -1,0 +1,12 @@
+
+Repository: AnalyzeJournal
+Description: No description available
+URL: https://github.com/sugarlabs/AnalyzeJournal
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2020-07-06T14:31:02Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

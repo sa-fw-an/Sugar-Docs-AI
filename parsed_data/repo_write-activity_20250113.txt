@@ -1,0 +1,12 @@
+
+Repository: write-activity
+Description: A simple word processor for the Sugar learning environment
+URL: https://github.com/sugarlabs/write-activity
+Primary Language: Python
+Stars: 2
+Forks: 25
+Topics: 
+Last Updated: 2024-02-23T14:24:51Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

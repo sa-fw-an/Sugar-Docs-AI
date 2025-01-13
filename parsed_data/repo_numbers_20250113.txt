@@ -1,0 +1,12 @@
+
+Repository: numbers
+Description: Clone of Peter Hewitt's numbers game
+URL: https://github.com/sugarlabs/numbers
+Primary Language: Python
+Stars: 1
+Forks: 11
+Topics: 
+Last Updated: 2024-12-26T20:53:48Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

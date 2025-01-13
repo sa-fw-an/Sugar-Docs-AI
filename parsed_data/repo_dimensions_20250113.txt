@@ -1,0 +1,12 @@
+
+Repository: dimensions
+Description: a pattern-matching game
+URL: https://github.com/sugarlabs/dimensions
+Primary Language: Python
+Stars: 1
+Forks: 17
+Topics: 
+Last Updated: 2021-03-11T16:04:46Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

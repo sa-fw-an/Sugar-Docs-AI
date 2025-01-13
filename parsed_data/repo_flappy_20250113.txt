@@ -1,0 +1,12 @@
+
+Repository: flappy
+Description: A python-pygame Flappy Bird clone
+URL: https://github.com/sugarlabs/flappy
+Primary Language: Python
+Stars: 2
+Forks: 12
+Topics: 
+Last Updated: 2024-09-16T12:33:48Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: PuppysPen
+Description: A visual math game for 4th graders written in Python for the XO laptop
+URL: https://github.com/sugarlabs/PuppysPen
+Primary Language: Python
+Stars: 1
+Forks: 0
+Topics: 
+Last Updated: 2019-02-25T07:27:34Z
+Default Branch: master
+License: MIT License
+---

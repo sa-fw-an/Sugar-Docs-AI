@@ -1,0 +1,12 @@
+
+Repository: pocket-lrad-activity
+Description: No description available
+URL: https://github.com/sugarlabs/pocket-lrad-activity
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-28T18:53:06Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

@@ -1,0 +1,12 @@
+
+Repository: bibliography-activity
+Description: A Bibliography Genarator and Manager for Sugar
+URL: https://github.com/sugarlabs/bibliography-activity
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2018-08-06T09:23:25Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

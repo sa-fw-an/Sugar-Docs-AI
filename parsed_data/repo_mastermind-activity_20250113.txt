@@ -1,0 +1,12 @@
+
+Repository: mastermind-activity
+Description: No description available
+URL: https://github.com/sugarlabs/mastermind-activity
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2024-05-04T16:53:31Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

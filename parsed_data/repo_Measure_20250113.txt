@@ -1,0 +1,12 @@
+
+Repository: Measure
+Description: The Sugar Measure activity
+URL: https://github.com/sugarlabs/Measure
+Primary Language: Python
+Stars: 1
+Forks: 10
+Topics: 
+Last Updated: 2024-08-12T19:15:36Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

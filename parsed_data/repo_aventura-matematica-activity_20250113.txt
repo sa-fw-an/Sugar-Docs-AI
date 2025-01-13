@@ -1,0 +1,12 @@
+
+Repository: aventura-matematica-activity
+Description: No description available
+URL: https://github.com/sugarlabs/aventura-matematica-activity
+Primary Language: JavaScript
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2017-04-21T06:21:24Z
+Default Branch: master
+License: Apache License 2.0
+---

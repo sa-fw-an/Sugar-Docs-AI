@@ -1,0 +1,12 @@
+
+Repository: iknowAmerica
+Description: A sugar game about he geography of America
+URL: https://github.com/sugarlabs/iknowAmerica
+Primary Language: Python
+Stars: 0
+Forks: 9
+Topics: 
+Last Updated: 2020-03-26T05:42:13Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: letters
+Description: Spell words from a group of random letters
+URL: https://github.com/sugarlabs/letters
+Primary Language: Python
+Stars: 1
+Forks: 7
+Topics: 
+Last Updated: 2024-01-22T09:10:18Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

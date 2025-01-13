@@ -1,0 +1,12 @@
+
+Repository: chart
+Description: A graphing sugar activity
+URL: https://github.com/sugarlabs/chart
+Primary Language: Python
+Stars: 1
+Forks: 7
+Topics: 
+Last Updated: 2024-05-24T14:04:08Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

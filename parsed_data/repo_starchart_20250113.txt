@@ -1,0 +1,12 @@
+
+Repository: starchart
+Description: No description available
+URL: https://github.com/sugarlabs/starchart
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2022-01-07T04:25:25Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

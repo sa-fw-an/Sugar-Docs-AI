@@ -1,0 +1,12 @@
+
+Repository: hello-world
+Description: Sugar Hello World activity
+URL: https://github.com/sugarlabs/hello-world
+Primary Language: Python
+Stars: 0
+Forks: 16
+Topics: 
+Last Updated: 2020-08-10T22:42:25Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

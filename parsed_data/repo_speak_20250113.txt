@@ -1,0 +1,12 @@
+
+Repository: speak
+Description: Sugar voice synthesizer
+URL: https://github.com/sugarlabs/speak
+Primary Language: Python
+Stars: 8
+Forks: 16
+Topics: 
+Last Updated: 2024-08-12T19:14:14Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

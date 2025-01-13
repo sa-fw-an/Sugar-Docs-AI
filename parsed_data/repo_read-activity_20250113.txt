@@ -1,0 +1,12 @@
+
+Repository: read-activity
+Description: A activity to read PDF and TXT files in the Sugar learning environment  
+URL: https://github.com/sugarlabs/read-activity
+Primary Language: Python
+Stars: 1
+Forks: 17
+Topics: 
+Last Updated: 2024-11-01T07:26:59Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

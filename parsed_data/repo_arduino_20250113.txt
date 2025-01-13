@@ -1,0 +1,12 @@
+
+Repository: arduino
+Description: An Arduino plugin for TurtleBlocks activity
+URL: https://github.com/sugarlabs/arduino
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2016-05-25T19:32:21Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

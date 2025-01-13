@@ -1,0 +1,12 @@
+
+Repository: WeDoMore
+Description: A Python Library & Reverse Engineering for the WeDo Kit.
+URL: https://github.com/sugarlabs/WeDoMore
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-30T08:06:58Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

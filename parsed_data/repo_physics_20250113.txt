@@ -1,0 +1,12 @@
+
+Repository: physics
+Description: a box2d playpen
+URL: https://github.com/sugarlabs/physics
+Primary Language: Python
+Stars: 7
+Forks: 27
+Topics: 
+Last Updated: 2024-12-25T07:05:38Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

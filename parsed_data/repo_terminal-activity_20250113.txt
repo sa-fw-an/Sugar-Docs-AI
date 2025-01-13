@@ -1,0 +1,12 @@
+
+Repository: terminal-activity
+Description: A traditional linux terminal activity for the Sugar learning environment
+URL: https://github.com/sugarlabs/terminal-activity
+Primary Language: Python
+Stars: 4
+Forks: 23
+Topics: 
+Last Updated: 2025-01-10T20:02:35Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

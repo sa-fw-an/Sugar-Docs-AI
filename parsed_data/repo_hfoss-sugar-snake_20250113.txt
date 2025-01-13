@@ -1,0 +1,12 @@
+
+Repository: hfoss-sugar-snake
+Description: Snake game for the Sugar Desktop Environment. Final project for HFOSS 2018.
+URL: https://github.com/sugarlabs/hfoss-sugar-snake
+Primary Language: JavaScript
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2025-01-06T15:12:15Z
+Default Branch: devel
+License: MIT License
+---

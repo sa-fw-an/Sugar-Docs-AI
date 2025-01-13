@@ -1,0 +1,12 @@
+
+Repository: colordeducto
+Description: No description available
+URL: https://github.com/sugarlabs/colordeducto
+Primary Language: Python
+Stars: 0
+Forks: 8
+Topics: 
+Last Updated: 2024-11-01T03:27:03Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

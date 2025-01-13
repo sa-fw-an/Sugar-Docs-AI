@@ -1,0 +1,12 @@
+
+Repository: XaoS
+Description: XaoS Sugar activity
+URL: https://github.com/sugarlabs/XaoS
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2019-01-24T04:52:19Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

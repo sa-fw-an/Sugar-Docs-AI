@@ -1,0 +1,12 @@
+
+Repository: supervampireninjazero-activity
+Description: Es el juego que todos estabamos esperando.un juegos de pelea de artes marciales.incluye 5 modos de juego:normal,prueba de tiempo,co-op,etc.ADVERTENCIA:este juego es recomendable para mayores de 10 años.
+URL: https://github.com/sugarlabs/supervampireninjazero-activity
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-28T18:50:30Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

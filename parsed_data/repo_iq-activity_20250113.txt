@@ -1,0 +1,12 @@
+
+Repository: iq-activity
+Description: No description available
+URL: https://github.com/sugarlabs/iq-activity
+Primary Language: Python
+Stars: 0
+Forks: 8
+Topics: 
+Last Updated: 2022-08-01T12:47:15Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

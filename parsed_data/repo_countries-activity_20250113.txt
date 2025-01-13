@@ -1,0 +1,12 @@
+
+Repository: countries-activity
+Description: No description available
+URL: https://github.com/sugarlabs/countries-activity
+Primary Language: Python
+Stars: 1
+Forks: 9
+Topics: 
+Last Updated: 2024-03-18T16:40:40Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

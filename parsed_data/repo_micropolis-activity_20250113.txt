@@ -1,0 +1,12 @@
+
+Repository: micropolis-activity
+Description: Micropolis. Just like SimCity. Build a City. Manage your city.
+URL: https://github.com/sugarlabs/micropolis-activity
+Primary Language: HTML
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-28T18:54:26Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

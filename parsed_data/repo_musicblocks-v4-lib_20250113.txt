@@ -1,0 +1,12 @@
+
+Repository: musicblocks-v4-lib
+Description: The programming framework of the new Music Blocks (v4) application.
+URL: https://github.com/sugarlabs/musicblocks-v4-lib
+Primary Language: TypeScript
+Stars: 14
+Forks: 29
+Topics: 
+Last Updated: 2024-03-24T18:52:14Z
+Default Branch: develop
+License: GNU Affero General Public License v3.0
+---

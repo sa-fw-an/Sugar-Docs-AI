@@ -1,0 +1,12 @@
+
+Repository: nxt
+Description: A LEGO NxT plugin for TurtleBlocks activity
+URL: https://github.com/sugarlabs/nxt
+Primary Language: Python
+Stars: 1
+Forks: 1
+Topics: 
+Last Updated: 2024-04-30T00:28:52Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

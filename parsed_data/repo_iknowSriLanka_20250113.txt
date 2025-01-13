@@ -1,0 +1,12 @@
+
+Repository: iknowSriLanka
+Description: A sugar game about the geography of Sri Lanka.
+URL: https://github.com/sugarlabs/iknowSriLanka
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2020-08-08T23:59:13Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

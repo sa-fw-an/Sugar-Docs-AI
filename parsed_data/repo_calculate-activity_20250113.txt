@@ -1,0 +1,12 @@
+
+Repository: calculate-activity
+Description: The sugar calculate activity.
+URL: https://github.com/sugarlabs/calculate-activity
+Primary Language: Python
+Stars: 1
+Forks: 30
+Topics: 
+Last Updated: 2024-08-07T21:51:32Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

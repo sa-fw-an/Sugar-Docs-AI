@@ -1,0 +1,12 @@
+
+Repository: golems
+Description: Game for the final project of Humanitarian Free and Open Source Software
+URL: https://github.com/sugarlabs/golems
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2018-01-19T09:27:57Z
+Default Branch: master
+License: MIT License
+---

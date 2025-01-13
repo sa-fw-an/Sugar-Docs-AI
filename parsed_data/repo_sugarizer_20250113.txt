@@ -1,0 +1,12 @@
+
+Repository: sugarizer
+Description: A taste of the Sugar learning platform on any device
+URL: https://github.com/sugarlabs/sugarizer
+Primary Language: JavaScript
+Stars: 44
+Forks: 59
+Topics: 
+Last Updated: 2025-01-06T15:08:39Z
+Default Branch: master
+License: Apache License 2.0
+---

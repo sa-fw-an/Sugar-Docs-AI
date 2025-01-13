@@ -1,0 +1,12 @@
+
+Repository: gmail-activity
+Description: A Gmail client for Sugar
+URL: https://github.com/sugarlabs/gmail-activity
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2018-11-28T21:49:14Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

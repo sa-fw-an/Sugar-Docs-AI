@@ -1,0 +1,12 @@
+
+Repository: riverhex-activity
+Description: RiverHex is a connection game. Each player should make a continuous link of hexagons from one side to the opposite side of the board game. RiverHex could be played against the XO or with 2 players on the same machine.
+URL: https://github.com/sugarlabs/riverhex-activity
+Primary Language: Python
+Stars: 1
+Forks: 2
+Topics: 
+Last Updated: 2019-01-28T01:05:42Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

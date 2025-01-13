@@ -1,0 +1,12 @@
+
+Repository: panorama
+Description: A sugar activity to create panoramic photos.
+URL: https://github.com/sugarlabs/panorama
+Primary Language: Python
+Stars: 0
+Forks: 9
+Topics: 
+Last Updated: 2024-11-01T07:26:59Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

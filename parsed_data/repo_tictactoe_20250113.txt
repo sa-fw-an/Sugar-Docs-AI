@@ -1,0 +1,12 @@
+
+Repository: tictactoe
+Description: Tic Tac Toe game for SugarLabs
+URL: https://github.com/sugarlabs/tictactoe
+Primary Language: Python
+Stars: 2
+Forks: 6
+Topics: 
+Last Updated: 2024-04-23T17:45:02Z
+Default Branch: main
+License: GNU General Public License v3.0
+---

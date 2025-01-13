@@ -1,0 +1,12 @@
+
+Repository: sugar-base
+Description: Base python library (deprecated)
+URL: https://github.com/sugarlabs/sugar-base
+Primary Language: C
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-16T13:28:40Z
+Default Branch: master
+License: GNU Lesser General Public License v2.1
+---

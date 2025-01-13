@@ -1,0 +1,12 @@
+
+Repository: rpi_control_center
+Description: No description available
+URL: https://github.com/sugarlabs/rpi_control_center
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2024-07-24T14:12:37Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

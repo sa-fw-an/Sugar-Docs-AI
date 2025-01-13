@@ -1,0 +1,12 @@
+
+Repository: pukllanapac
+Description: No description available
+URL: https://github.com/sugarlabs/pukllanapac
+Primary Language: Python
+Stars: 0
+Forks: 8
+Topics: 
+Last Updated: 2024-11-01T05:26:59Z
+Default Branch: master
+License: MIT License
+---

@@ -1,0 +1,12 @@
+
+Repository: clock-activity
+Description: A nice clock for the Sugar learning environment
+URL: https://github.com/sugarlabs/clock-activity
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2024-11-01T00:27:03Z
+Default Branch: master
+License: Other
+---

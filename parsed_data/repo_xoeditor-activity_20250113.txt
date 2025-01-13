@@ -1,0 +1,12 @@
+
+Repository: xoeditor-activity
+Description: No description available
+URL: https://github.com/sugarlabs/xoeditor-activity
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2019-12-05T03:37:50Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

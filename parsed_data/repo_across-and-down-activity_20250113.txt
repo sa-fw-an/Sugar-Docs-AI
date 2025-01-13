@@ -1,0 +1,12 @@
+
+Repository: across-and-down-activity
+Description: No description available
+URL: https://github.com/sugarlabs/across-and-down-activity
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2023-09-18T17:34:02Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

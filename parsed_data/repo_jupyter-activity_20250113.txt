@@ -1,0 +1,12 @@
+
+Repository: jupyter-activity
+Description: No description available
+URL: https://github.com/sugarlabs/jupyter-activity
+Primary Language: Not specified
+Stars: 2
+Forks: 0
+Topics: 
+Last Updated: 2020-03-03T07:34:38Z
+Default Branch: master
+License: MIT License
+---

@@ -1,0 +1,12 @@
+
+Repository: colors
+Description: No description available
+URL: https://github.com/sugarlabs/colors
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2017-02-18T20:54:33Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

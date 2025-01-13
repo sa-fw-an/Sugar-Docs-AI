@@ -1,0 +1,12 @@
+
+Repository: agubrowser-activity
+Description: Navegador, muy rápido, fácil de usar, sencillo, gratis, libre, etc... A pesar de ser un navegador rápido y sencillo no es un programa limitado de funciones.... Espero que les guste!
+URL: https://github.com/sugarlabs/agubrowser-activity
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2018-11-04T06:10:35Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

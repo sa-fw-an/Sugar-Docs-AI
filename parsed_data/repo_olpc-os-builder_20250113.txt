@@ -1,0 +1,12 @@
+
+Repository: olpc-os-builder
+Description: Just a mirror of OLPC's repository for community based branches
+URL: https://github.com/sugarlabs/olpc-os-builder
+Primary Language: Shell
+Stars: 1
+Forks: 1
+Topics: 
+Last Updated: 2017-01-14T08:31:58Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

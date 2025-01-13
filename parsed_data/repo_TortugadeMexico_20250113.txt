@@ -1,0 +1,12 @@
+
+Repository: TortugadeMexico
+Description: No description available
+URL: https://github.com/sugarlabs/TortugadeMexico
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2020-01-23T06:43:28Z
+Default Branch: master
+License: MIT License
+---

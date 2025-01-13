@@ -1,0 +1,12 @@
+
+Repository: sugar-web
+Description: Components for Sugar web activities
+URL: https://github.com/sugarlabs/sugar-web
+Primary Language: JavaScript
+Stars: 14
+Forks: 34
+Topics: 
+Last Updated: 2025-01-05T16:59:16Z
+Default Branch: master
+License: Apache License 2.0
+---

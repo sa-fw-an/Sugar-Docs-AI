@@ -1,0 +1,12 @@
+
+Repository: tamtam
+Description: No description available
+URL: https://github.com/sugarlabs/tamtam
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2019-12-17T21:36:41Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

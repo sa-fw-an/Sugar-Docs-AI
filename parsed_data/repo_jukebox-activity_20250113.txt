@@ -1,0 +1,12 @@
+
+Repository: jukebox-activity
+Description: A media player for the Sugar learning environment
+URL: https://github.com/sugarlabs/jukebox-activity
+Primary Language: Python
+Stars: 1
+Forks: 14
+Topics: 
+Last Updated: 2023-09-10T10:22:33Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

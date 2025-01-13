@@ -1,0 +1,12 @@
+
+Repository: maps-activity
+Description: The Map Activity uses a quick version of Google Maps for exploring the world. Mapmaking tools add photos, text, and Wikipedia articles to the map. You can also download maps and lessons from an online library.
+URL: https://github.com/sugarlabs/maps-activity
+Primary Language: Python
+Stars: 2
+Forks: 6
+Topics: 
+Last Updated: 2023-01-20T14:28:48Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

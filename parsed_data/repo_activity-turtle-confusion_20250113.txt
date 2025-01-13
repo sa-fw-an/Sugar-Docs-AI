@@ -1,0 +1,12 @@
+
+Repository: activity-turtle-confusion
+Description: No description available
+URL: https://github.com/sugarlabs/activity-turtle-confusion
+Primary Language: Python
+Stars: 1
+Forks: 9
+Topics: 
+Last Updated: 2020-02-18T06:14:49Z
+Default Branch: master
+License: MIT License
+---

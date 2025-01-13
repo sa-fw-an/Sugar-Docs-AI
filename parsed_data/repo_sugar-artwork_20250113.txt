@@ -1,0 +1,12 @@
+
+Repository: sugar-artwork
+Description: Sugar icons and themes
+URL: https://github.com/sugarlabs/sugar-artwork
+Primary Language: C
+Stars: 11
+Forks: 34
+Topics: 
+Last Updated: 2024-08-27T22:02:12Z
+Default Branch: master
+License: Apache License 2.0
+---

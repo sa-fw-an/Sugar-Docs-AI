@@ -1,0 +1,12 @@
+
+Repository: recall
+Description: No description available
+URL: https://github.com/sugarlabs/recall
+Primary Language: Python
+Stars: 0
+Forks: 11
+Topics: 
+Last Updated: 2022-04-01T08:48:26Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

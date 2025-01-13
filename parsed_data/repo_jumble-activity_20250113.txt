@@ -1,0 +1,12 @@
+
+Repository: jumble-activity
+Description: No description available
+URL: https://github.com/sugarlabs/jumble-activity
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2024-08-21T11:51:26Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

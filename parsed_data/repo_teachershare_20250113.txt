@@ -1,0 +1,12 @@
+
+Repository: teachershare
+Description: Sugar webservice for sharing with Journal Share
+URL: https://github.com/sugarlabs/teachershare
+Primary Language: Python
+Stars: 2
+Forks: 0
+Topics: 
+Last Updated: 2017-03-14T17:10:01Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

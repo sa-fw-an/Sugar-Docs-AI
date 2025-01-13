@@ -1,0 +1,12 @@
+
+Repository: slider-puzzle-branch
+Description: No description available
+URL: https://github.com/sugarlabs/slider-puzzle-branch
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2018-12-30T22:57:48Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

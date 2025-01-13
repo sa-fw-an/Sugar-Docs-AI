@@ -1,0 +1,12 @@
+
+Repository: Bichos
+Description: No description available
+URL: https://github.com/sugarlabs/Bichos
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2021-02-19T23:51:29Z
+Default Branch: master
+License: Other
+---

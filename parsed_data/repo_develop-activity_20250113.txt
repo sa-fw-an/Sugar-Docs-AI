@@ -1,0 +1,12 @@
+
+Repository: develop-activity
+Description: A simple ide to create Sugar activities
+URL: https://github.com/sugarlabs/develop-activity
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2020-11-03T21:54:21Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

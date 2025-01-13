@@ -1,0 +1,12 @@
+
+Repository: rpi23-gen-image
+Description:  Advanced Debian "jessie" and "stretch" bootstrap script for RPi2/3
+URL: https://github.com/sugarlabs/rpi23-gen-image
+Primary Language: Shell
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2019-02-22T17:16:07Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

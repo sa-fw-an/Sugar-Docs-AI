@@ -1,0 +1,12 @@
+
+Repository: prosody-sugar
+Description: No description available
+URL: https://github.com/sugarlabs/prosody-sugar
+Primary Language: Lua
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2017-09-05T21:09:52Z
+Default Branch: master
+License: MIT License
+---

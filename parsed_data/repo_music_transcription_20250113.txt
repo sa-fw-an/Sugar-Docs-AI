@@ -1,0 +1,12 @@
+
+Repository: music_transcription
+Description: music_transcription
+URL: https://github.com/sugarlabs/music_transcription
+Primary Language: JavaScript
+Stars: 4
+Forks: 4
+Topics: 
+Last Updated: 2025-01-05T17:00:50Z
+Default Branch: main
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: ball-and-brick-activity
+Description: No description available
+URL: https://github.com/sugarlabs/ball-and-brick-activity
+Primary Language: Python
+Stars: 0
+Forks: 11
+Topics: 
+Last Updated: 2025-01-04T22:31:03Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: sugar-live-build
+Description: Configuration for Debian Live Build to make a Sugar Live Build
+URL: https://github.com/sugarlabs/sugar-live-build
+Primary Language: Shell
+Stars: 6
+Forks: 12
+Topics: 
+Last Updated: 2023-12-10T23:28:58Z
+Default Branch: master
+License: Other
+---

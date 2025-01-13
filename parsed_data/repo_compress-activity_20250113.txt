@@ -1,0 +1,12 @@
+
+Repository: compress-activity
+Description: No description available
+URL: https://github.com/sugarlabs/compress-activity
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2020-01-24T19:02:19Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

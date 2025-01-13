@@ -1,0 +1,12 @@
+
+Repository: ordinals-activity
+Description: ordinals game as a sugar activity
+URL: https://github.com/sugarlabs/ordinals-activity
+Primary Language: Python
+Stars: 1
+Forks: 1
+Topics: 
+Last Updated: 2020-02-02T20:34:59Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

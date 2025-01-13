@@ -1,0 +1,12 @@
+
+Repository: connect-the-dots-activity
+Description: a very simple js game
+URL: https://github.com/sugarlabs/connect-the-dots-activity
+Primary Language: JavaScript
+Stars: 2
+Forks: 25
+Topics: 
+Last Updated: 2025-01-08T20:51:58Z
+Default Branch: master
+License: Apache License 2.0
+---

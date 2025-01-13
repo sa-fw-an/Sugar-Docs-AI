@@ -1,0 +1,12 @@
+
+Repository: yupana
+Description: No description available
+URL: https://github.com/sugarlabs/yupana
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2022-01-06T12:03:33Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: mancala-activity
+Description: No description available
+URL: https://github.com/sugarlabs/mancala-activity
+Primary Language: Python
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2020-01-09T08:28:17Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

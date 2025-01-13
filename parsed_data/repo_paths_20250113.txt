@@ -1,0 +1,12 @@
+
+Repository: paths
+Description: No description available
+URL: https://github.com/sugarlabs/paths
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2020-03-31T00:15:58Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

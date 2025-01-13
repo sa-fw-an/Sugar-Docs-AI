@@ -1,0 +1,12 @@
+
+Repository: periodic-table
+Description: A periodic table for Sugar
+URL: https://github.com/sugarlabs/periodic-table
+Primary Language: Python
+Stars: 9
+Forks: 17
+Topics: 
+Last Updated: 2024-05-24T14:01:49Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

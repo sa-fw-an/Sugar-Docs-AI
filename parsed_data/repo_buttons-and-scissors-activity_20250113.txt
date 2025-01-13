@@ -1,0 +1,12 @@
+
+Repository: buttons-and-scissors-activity
+Description: A puzzle game for Sugar
+URL: https://github.com/sugarlabs/buttons-and-scissors-activity
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2019-12-19T01:04:51Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

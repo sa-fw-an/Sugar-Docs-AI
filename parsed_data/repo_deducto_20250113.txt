@@ -1,0 +1,12 @@
+
+Repository: deducto
+Description: No description available
+URL: https://github.com/sugarlabs/deducto
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2020-09-07T04:01:58Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

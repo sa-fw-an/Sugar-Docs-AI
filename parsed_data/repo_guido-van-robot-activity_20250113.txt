@@ -1,0 +1,12 @@
+
+Repository: guido-van-robot-activity
+Description: Actividad de Matematicas recomenda por la Pagina Oficial de Ceibal
+URL: https://github.com/sugarlabs/guido-van-robot-activity
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-28T17:58:16Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

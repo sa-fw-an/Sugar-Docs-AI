@@ -1,0 +1,12 @@
+
+Repository: cedit-activity
+Description: A text editor for sugar.
+URL: https://github.com/sugarlabs/cedit-activity
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2019-08-20T11:01:11Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

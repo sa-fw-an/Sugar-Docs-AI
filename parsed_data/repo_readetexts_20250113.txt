@@ -1,0 +1,12 @@
+
+Repository: readetexts
+Description: Read Etexts Activity -- Read Plain Text books published by Project Gutenberg.
+URL: https://github.com/sugarlabs/readetexts
+Primary Language: Python
+Stars: 2
+Forks: 7
+Topics: 
+Last Updated: 2023-07-05T17:00:55Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

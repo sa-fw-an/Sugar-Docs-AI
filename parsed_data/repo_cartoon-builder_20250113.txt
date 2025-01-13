@@ -1,0 +1,12 @@
+
+Repository: cartoon-builder
+Description: No description available
+URL: https://github.com/sugarlabs/cartoon-builder
+Primary Language: Python
+Stars: 1
+Forks: 9
+Topics: 
+Last Updated: 2019-02-19T10:59:05Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

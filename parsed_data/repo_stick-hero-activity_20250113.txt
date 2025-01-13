@@ -1,0 +1,12 @@
+
+Repository: stick-hero-activity
+Description: An arcade game for Sugar
+URL: https://github.com/sugarlabs/stick-hero-activity
+Primary Language: Python
+Stars: 0
+Forks: 15
+Topics: 
+Last Updated: 2024-11-01T00:26:59Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

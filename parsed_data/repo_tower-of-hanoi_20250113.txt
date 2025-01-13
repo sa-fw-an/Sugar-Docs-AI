@@ -1,0 +1,12 @@
+
+Repository: tower-of-hanoi
+Description: Tower Of Hanoi is a puzzle game for the Sugar desktop.
+URL: https://github.com/sugarlabs/tower-of-hanoi
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2024-09-18T16:56:36Z
+Default Branch: main
+License: GNU General Public License v3.0
+---

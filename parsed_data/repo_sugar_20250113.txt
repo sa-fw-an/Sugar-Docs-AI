@@ -1,0 +1,12 @@
+
+Repository: sugar
+Description: Sugar GTK shell
+URL: https://github.com/sugarlabs/sugar
+Primary Language: Python
+Stars: 266
+Forks: 249
+Topics: 
+Last Updated: 2025-01-08T07:22:55Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

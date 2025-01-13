@@ -1,0 +1,12 @@
+
+Repository: iknowRwanda
+Description: A sugar game about he geography of Rwanda
+URL: https://github.com/sugarlabs/iknowRwanda
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2020-01-29T00:35:54Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

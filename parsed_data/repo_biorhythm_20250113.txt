@@ -1,0 +1,12 @@
+
+Repository: biorhythm
+Description: A sugar activity that calculates your biorhythm
+URL: https://github.com/sugarlabs/biorhythm
+Primary Language: Python
+Stars: 2
+Forks: 6
+Topics: 
+Last Updated: 2021-05-01T05:59:04Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

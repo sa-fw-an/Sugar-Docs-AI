@@ -1,0 +1,12 @@
+
+Repository: playgo-activity
+Description: Go is a strategic board game for two players. It is also known as igo (Japanese), weiqi (Chinese) or baduk (Korean). Go is noted for being rich in strategic complexity despite its simple rules. The Sugar version has several modes of play: two people on the same computer, two people on different computers, or one person versus the computer program.
+URL: https://github.com/sugarlabs/playgo-activity
+Primary Language: Python
+Stars: 0
+Forks: 7
+Topics: 
+Last Updated: 2020-08-24T23:59:57Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

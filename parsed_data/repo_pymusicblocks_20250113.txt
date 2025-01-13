@@ -1,0 +1,12 @@
+
+Repository: pymusicblocks
+Description: The Python version of Music Blocks (JS)
+URL: https://github.com/sugarlabs/pymusicblocks
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2016-05-28T17:33:26Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

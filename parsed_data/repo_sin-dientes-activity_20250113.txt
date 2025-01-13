@@ -1,0 +1,12 @@
+
+Repository: sin-dientes-activity
+Description: Spanish word guessing game for Sugar desktop, using progressive dental loss instead of hangman
+URL: https://github.com/sugarlabs/sin-dientes-activity
+Primary Language: Python
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2020-02-18T06:22:09Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

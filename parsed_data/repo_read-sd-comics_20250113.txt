@@ -1,0 +1,12 @@
+
+Repository: read-sd-comics
+Description: Read SD Comics
+URL: https://github.com/sugarlabs/read-sd-comics
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2024-11-01T06:26:59Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

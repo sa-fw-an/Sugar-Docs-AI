@@ -1,0 +1,12 @@
+
+Repository: locosugar
+Description: No description available
+URL: https://github.com/sugarlabs/locosugar
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2021-05-04T09:51:39Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

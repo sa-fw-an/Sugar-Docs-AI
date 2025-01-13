@@ -1,0 +1,12 @@
+
+Repository: three-utilities
+Description: Three Utilities is a mathematical puzzle game for the Sugar Desktop
+URL: https://github.com/sugarlabs/three-utilities
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2024-10-10T21:50:05Z
+Default Branch: main
+License: GNU General Public License v3.0
+---

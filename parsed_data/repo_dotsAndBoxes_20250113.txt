@@ -1,0 +1,12 @@
+
+Repository: dotsAndBoxes
+Description: A sugar game about the classic Dot and boxes
+URL: https://github.com/sugarlabs/dotsAndBoxes
+Primary Language: Python
+Stars: 2
+Forks: 14
+Topics: 
+Last Updated: 2024-11-14T18:24:24Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

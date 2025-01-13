@@ -1,0 +1,12 @@
+
+Repository: sugar-toolkit
+Description: Sugar Learning Environment, Activity Toolkit, GTK 2, deprecated for new activities, but supported for old activities.
+URL: https://github.com/sugarlabs/sugar-toolkit
+Primary Language: Python
+Stars: 1
+Forks: 9
+Topics: 
+Last Updated: 2019-12-31T03:01:27Z
+Default Branch: master
+License: GNU Lesser General Public License v2.1
+---

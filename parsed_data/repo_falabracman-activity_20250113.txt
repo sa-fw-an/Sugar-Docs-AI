@@ -1,0 +1,12 @@
+
+Repository: falabracman-activity
+Description: No description available
+URL: https://github.com/sugarlabs/falabracman-activity
+Primary Language: Python
+Stars: 1
+Forks: 10
+Topics: 
+Last Updated: 2023-02-23T06:48:18Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: blender-activity
+Description: Blender, sugarizacion del programa de animacaion 3D. Linux Recomendado XO Azules!!!
+URL: https://github.com/sugarlabs/blender-activity
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2016-05-28T17:58:38Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

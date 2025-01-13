@@ -1,0 +1,12 @@
+
+Repository: showntell-activity
+Description: ShowNTell expands the capabilities of ClassroomPresenter to enable users to create presentations on the XO and to record audio descriptions of the slides.
+URL: https://github.com/sugarlabs/showntell-activity
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2019-10-18T05:58:40Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

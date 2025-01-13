@@ -1,0 +1,12 @@
+
+Repository: convert
+Description: Sugar units conversion activity
+URL: https://github.com/sugarlabs/convert
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2024-04-01T17:01:45Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

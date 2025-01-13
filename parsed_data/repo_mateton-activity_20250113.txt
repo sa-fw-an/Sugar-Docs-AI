@@ -1,0 +1,12 @@
+
+Repository: mateton-activity
+Description: A blackboard that let the children do basic math as they would in their exercise book, and let the teachers analyze how the children thinks and where and how they made mistakes.
+URL: https://github.com/sugarlabs/mateton-activity
+Primary Language: Python
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2024-11-01T03:27:00Z
+Default Branch: master
+License: Other
+---

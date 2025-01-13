@@ -1,0 +1,12 @@
+
+Repository: Dashboard.activity
+Description: No description available
+URL: https://github.com/sugarlabs/Dashboard.activity
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2019-08-24T09:01:38Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

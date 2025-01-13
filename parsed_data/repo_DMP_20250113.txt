@@ -1,0 +1,12 @@
+
+Repository: DMP
+Description: The Dedicated Mentoring Program is a place for students and professionals to contribute to critical tech building blocks with the guidance of a dedicated mentor. 
+URL: https://github.com/sugarlabs/DMP
+Primary Language: Not specified
+Stars: 3
+Forks: 5
+Topics: 
+Last Updated: 2024-10-11T18:24:43Z
+Default Branch: main
+License: MIT License
+---

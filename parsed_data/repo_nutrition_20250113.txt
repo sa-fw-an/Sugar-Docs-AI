@@ -1,0 +1,12 @@
+
+Repository: nutrition
+Description: No description available
+URL: https://github.com/sugarlabs/nutrition
+Primary Language: Python
+Stars: 0
+Forks: 8
+Topics: 
+Last Updated: 2020-05-21T03:47:22Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

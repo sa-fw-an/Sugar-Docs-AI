@@ -1,0 +1,12 @@
+
+Repository: cellgame
+Description: A sugar activity
+URL: https://github.com/sugarlabs/cellgame
+Primary Language: Python
+Stars: 0
+Forks: 9
+Topics: 
+Last Updated: 2024-07-27T20:24:41Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

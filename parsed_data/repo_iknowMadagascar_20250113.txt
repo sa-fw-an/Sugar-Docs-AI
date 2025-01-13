@@ -1,0 +1,12 @@
+
+Repository: iknowMadagascar
+Description: A sugar game about the geography of Madagascar
+URL: https://github.com/sugarlabs/iknowMadagascar
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2023-08-24T13:13:48Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

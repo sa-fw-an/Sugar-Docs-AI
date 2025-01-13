@@ -1,0 +1,12 @@
+
+Repository: amazonas-activity
+Description: No description available
+URL: https://github.com/sugarlabs/amazonas-activity
+Primary Language: Python
+Stars: 0
+Forks: 4
+Topics: 
+Last Updated: 2021-02-07T23:19:18Z
+Default Branch: master
+License: MIT License
+---

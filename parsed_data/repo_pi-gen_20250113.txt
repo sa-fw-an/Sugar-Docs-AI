@@ -1,0 +1,12 @@
+
+Repository: pi-gen
+Description: Tool used to create the official Raspberry Pi OS images
+URL: https://github.com/sugarlabs/pi-gen
+Primary Language: Shell
+Stars: 0
+Forks: 2
+Topics: 
+Last Updated: 2025-01-02T21:16:34Z
+Default Branch: sugar
+License: BSD 3-Clause "New" or "Revised" License
+---

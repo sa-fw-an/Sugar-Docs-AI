@@ -1,0 +1,12 @@
+
+Repository: Java
+Description: Java Sugar activity
+URL: https://github.com/sugarlabs/Java
+Primary Language: Groff
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-20T22:07:27Z
+Default Branch: master
+License: Other
+---

@@ -1,0 +1,12 @@
+
+Repository: moon-activity
+Description: A activity to show moon phases and more information 
+URL: https://github.com/sugarlabs/moon-activity
+Primary Language: JavaScript
+Stars: 1
+Forks: 8
+Topics: 
+Last Updated: 2025-01-06T15:12:12Z
+Default Branch: master
+License: Apache License 2.0
+---

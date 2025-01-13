@@ -1,0 +1,12 @@
+
+Repository: pydebug-activity
+Description: PyDebug is a tool for writing and debugging Activities for the Sugar desktop platform that is optimized for offline, stand alone program development on the XO.
+URL: https://github.com/sugarlabs/pydebug-activity
+Primary Language: HTML
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2025-01-06T15:12:21Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

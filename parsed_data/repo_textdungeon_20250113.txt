@@ -1,0 +1,12 @@
+
+Repository: textdungeon
+Description: No description available
+URL: https://github.com/sugarlabs/textdungeon
+Primary Language: Python
+Stars: 1
+Forks: 4
+Topics: 
+Last Updated: 2024-05-24T14:03:55Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

@@ -1,0 +1,12 @@
+
+Repository: PyCut
+Description: PyCut, a pizza-making puzzle game made for RIT IGME-582's final project
+URL: https://github.com/sugarlabs/PyCut
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2018-01-19T08:49:30Z
+Default Branch: master
+License: Mozilla Public License 2.0
+---

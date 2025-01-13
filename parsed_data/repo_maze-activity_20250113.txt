@@ -1,0 +1,12 @@
+
+Repository: maze-activity
+Description: A simple maze game for the Sugar learning environment
+URL: https://github.com/sugarlabs/maze-activity
+Primary Language: Python
+Stars: 1
+Forks: 11
+Topics: 
+Last Updated: 2024-10-31T21:27:00Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

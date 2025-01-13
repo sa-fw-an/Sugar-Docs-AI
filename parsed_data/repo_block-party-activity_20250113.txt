@@ -1,0 +1,12 @@
+
+Repository: block-party-activity
+Description: No description available
+URL: https://github.com/sugarlabs/block-party-activity
+Primary Language: Python
+Stars: 1
+Forks: 12
+Topics: 
+Last Updated: 2024-11-11T18:36:44Z
+Default Branch: master
+License: MIT License
+---

@@ -1,0 +1,12 @@
+
+Repository: Bounce
+Description: Bounce Sugar activity
+URL: https://github.com/sugarlabs/Bounce
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2018-07-25T22:07:41Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: math-hurdler
+Description: A Sugar math game.
+URL: https://github.com/sugarlabs/math-hurdler
+Primary Language: Python
+Stars: 0
+Forks: 6
+Topics: 
+Last Updated: 2024-09-27T17:55:37Z
+Default Branch: master
+License: MIT License
+---

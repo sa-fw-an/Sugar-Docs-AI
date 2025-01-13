@@ -1,0 +1,12 @@
+
+Repository: didg-art-activity
+Description: No description available
+URL: https://github.com/sugarlabs/didg-art-activity
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2019-12-27T05:03:32Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

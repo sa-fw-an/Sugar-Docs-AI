@@ -1,0 +1,12 @@
+
+Repository: followme
+Description: Port of Peter Hewitt follow me game
+URL: https://github.com/sugarlabs/followme
+Primary Language: Python
+Stars: 0
+Forks: 3
+Topics: 
+Last Updated: 2022-07-13T18:26:09Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: finance-activity
+Description: No description available
+URL: https://github.com/sugarlabs/finance-activity
+Primary Language: Python
+Stars: 2
+Forks: 18
+Topics: 
+Last Updated: 2024-03-23T00:03:13Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: classify-cats
+Description: No description available
+URL: https://github.com/sugarlabs/classify-cats
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2023-03-08T21:16:14Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

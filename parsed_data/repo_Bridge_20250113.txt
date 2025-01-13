@@ -1,0 +1,12 @@
+
+Repository: Bridge
+Description: Bridge Sugar activity
+URL: https://github.com/sugarlabs/Bridge
+Primary Language: Python
+Stars: 2
+Forks: 17
+Topics: 
+Last Updated: 2024-05-24T14:03:14Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

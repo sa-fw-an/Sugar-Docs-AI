@@ -1,0 +1,12 @@
+
+Repository: sugar-web-template
+Description: Sugar web activity template
+URL: https://github.com/sugarlabs/sugar-web-template
+Primary Language: JavaScript
+Stars: 1
+Forks: 7
+Topics: 
+Last Updated: 2017-12-17T14:02:47Z
+Default Branch: master
+License: Apache License 2.0
+---

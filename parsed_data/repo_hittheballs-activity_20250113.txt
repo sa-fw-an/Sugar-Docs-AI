@@ -1,0 +1,12 @@
+
+Repository: hittheballs-activity
+Description: No description available
+URL: https://github.com/sugarlabs/hittheballs-activity
+Primary Language: Python
+Stars: 0
+Forks: 15
+Topics: 
+Last Updated: 2024-12-17T18:10:52Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

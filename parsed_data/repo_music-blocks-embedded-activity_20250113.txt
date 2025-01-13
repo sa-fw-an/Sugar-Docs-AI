@@ -1,0 +1,12 @@
+
+Repository: music-blocks-embedded-activity
+Description: No description available
+URL: https://github.com/sugarlabs/music-blocks-embedded-activity
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2024-10-31T20:27:03Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

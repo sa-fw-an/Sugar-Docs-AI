@@ -1,0 +1,12 @@
+
+Repository: iknowmyabcs
+Description: No description available
+URL: https://github.com/sugarlabs/iknowmyabcs
+Primary Language: Python
+Stars: 3
+Forks: 8
+Topics: 
+Last Updated: 2021-05-04T09:52:02Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

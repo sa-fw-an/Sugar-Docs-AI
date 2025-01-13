@@ -1,0 +1,12 @@
+
+Repository: musicblocks
+Description: Music Blocks -- A musical microworld
+URL: https://github.com/sugarlabs/musicblocks
+Primary Language: JavaScript
+Stars: 609
+Forks: 918
+Topics: education, music-blocks
+Last Updated: 2025-01-12T16:14:22Z
+Default Branch: master
+License: GNU Affero General Public License v3.0
+---

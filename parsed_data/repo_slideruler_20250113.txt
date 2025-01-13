@@ -1,0 +1,12 @@
+
+Repository: slideruler
+Description: No description available
+URL: https://github.com/sugarlabs/slideruler
+Primary Language: Python
+Stars: 2
+Forks: 8
+Topics: 
+Last Updated: 2024-07-01T05:05:33Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

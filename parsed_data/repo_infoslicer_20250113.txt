@@ -1,0 +1,12 @@
+
+Repository: infoslicer
+Description: No description available
+URL: https://github.com/sugarlabs/infoslicer
+Primary Language: Python
+Stars: 2
+Forks: 10
+Topics: 
+Last Updated: 2024-11-03T05:26:59Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

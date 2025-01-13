@@ -1,0 +1,12 @@
+
+Repository: pilas-activity
+Description: Pilas is an engine for making videogames in an easy way.
+URL: https://github.com/sugarlabs/pilas-activity
+Primary Language: Python
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2016-05-28T18:51:11Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

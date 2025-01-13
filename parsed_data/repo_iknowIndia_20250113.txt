@@ -1,0 +1,12 @@
+
+Repository: iknowIndia
+Description: A sugar game about the geography of India
+URL: https://github.com/sugarlabs/iknowIndia
+Primary Language: Python
+Stars: 1
+Forks: 5
+Topics: 
+Last Updated: 2024-05-19T03:24:32Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

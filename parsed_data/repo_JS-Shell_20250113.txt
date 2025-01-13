@@ -1,0 +1,12 @@
+
+Repository: JS-Shell
+Description: Interactive JS Shell for SugarLabs
+URL: https://github.com/sugarlabs/JS-Shell
+Primary Language: JavaScript
+Stars: 1
+Forks: 2
+Topics: 
+Last Updated: 2016-07-15T20:31:35Z
+Default Branch: master
+License: Apache License 2.0
+---

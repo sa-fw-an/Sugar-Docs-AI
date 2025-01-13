@@ -1,0 +1,12 @@
+
+Repository: supertux-activity
+Description: SuperTux game ported to Sugar!
+URL: https://github.com/sugarlabs/supertux-activity
+Primary Language: Scheme
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2016-05-28T18:01:27Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

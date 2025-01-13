@@ -1,0 +1,12 @@
+
+Repository: Sugarizehelp
+Description: Sugarizehelp Sugar activity
+URL: https://github.com/sugarlabs/Sugarizehelp
+Primary Language: JavaScript
+Stars: 0
+Forks: 1
+Topics: 
+Last Updated: 2016-05-20T22:13:46Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

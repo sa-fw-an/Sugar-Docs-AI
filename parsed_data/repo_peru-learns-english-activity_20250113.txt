@@ -1,0 +1,12 @@
+
+Repository: peru-learns-english-activity
+Description: Inglés para niños de secundaria de Perú.
+URL: https://github.com/sugarlabs/peru-learns-english-activity
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2017-12-29T00:43:03Z
+Default Branch: master
+License: Other
+---

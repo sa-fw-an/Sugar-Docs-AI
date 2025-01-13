@@ -1,0 +1,12 @@
+
+Repository: record-activity
+Description: A activity to record audio, video and take photos, for Sugar, the learning environment.
+URL: https://github.com/sugarlabs/record-activity
+Primary Language: Python
+Stars: 1
+Forks: 8
+Topics: 
+Last Updated: 2020-02-18T06:14:32Z
+Default Branch: master
+License: Other
+---

@@ -1,0 +1,12 @@
+
+Repository: turtle-blocks-embedded-activity
+Description: Turtle Blocks JS embedded inside the Sugar Labs Browse activity
+URL: https://github.com/sugarlabs/turtle-blocks-embedded-activity
+Primary Language: Python
+Stars: 2
+Forks: 4
+Topics: 
+Last Updated: 2024-04-27T21:28:00Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

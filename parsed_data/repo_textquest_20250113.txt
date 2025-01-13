@@ -1,0 +1,12 @@
+
+Repository: textquest
+Description: Text based game for SugarLabs
+URL: https://github.com/sugarlabs/textquest
+Primary Language: Python
+Stars: 1
+Forks: 1
+Topics: 
+Last Updated: 2024-05-24T14:02:52Z
+Default Branch: main
+License: MIT License
+---

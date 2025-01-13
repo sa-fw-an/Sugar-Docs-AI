@@ -1,0 +1,12 @@
+
+Repository: log-activity
+Description: Log activity for the Sugar learning environment
+URL: https://github.com/sugarlabs/log-activity
+Primary Language: Python
+Stars: 1
+Forks: 9
+Topics: 
+Last Updated: 2023-04-04T03:26:53Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

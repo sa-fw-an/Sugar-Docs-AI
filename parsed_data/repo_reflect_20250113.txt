@@ -1,0 +1,12 @@
+
+Repository: reflect
+Description: reflection activity for Sugar
+URL: https://github.com/sugarlabs/reflect
+Primary Language: Python
+Stars: 0
+Forks: 15
+Topics: 
+Last Updated: 2025-01-11T20:19:12Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

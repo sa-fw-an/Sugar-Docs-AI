@@ -1,0 +1,12 @@
+
+Repository: iknowEditor
+Description: A sugar activity to create 'iKnow' activities
+URL: https://github.com/sugarlabs/iknowEditor
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2019-12-17T20:40:30Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: turtlepond
+Description: No description available
+URL: https://github.com/sugarlabs/turtlepond
+Primary Language: Python
+Stars: 1
+Forks: 6
+Topics: 
+Last Updated: 2024-11-01T04:27:03Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

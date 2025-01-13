@@ -1,0 +1,12 @@
+
+Repository: solar-system
+Description: A Solar System for Sugar
+URL: https://github.com/sugarlabs/solar-system
+Primary Language: HTML
+Stars: 5
+Forks: 8
+Topics: 
+Last Updated: 2024-01-12T08:21:11Z
+Default Branch: master
+License: GNU Lesser General Public License v3.0
+---

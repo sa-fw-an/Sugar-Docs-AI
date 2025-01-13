@@ -1,0 +1,12 @@
+
+Repository: sugar-toolkit-gtk3
+Description: Sugar Learning Environment, Activity Toolkit, GTK 3.
+URL: https://github.com/sugarlabs/sugar-toolkit-gtk3
+Primary Language: Python
+Stars: 21
+Forks: 81
+Topics: 
+Last Updated: 2024-12-19T09:25:53Z
+Default Branch: master
+License: GNU Lesser General Public License v2.1
+---

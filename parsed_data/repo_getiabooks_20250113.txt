@@ -1,0 +1,12 @@
+
+Repository: getiabooks
+Description: Get Internet Archive Books
+URL: https://github.com/sugarlabs/getiabooks
+Primary Language: Python
+Stars: 2
+Forks: 4
+Topics: 
+Last Updated: 2024-05-04T13:37:00Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

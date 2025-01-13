@@ -1,0 +1,12 @@
+
+Repository: music-keyboard-activity
+Description: Sugar desktop Python activity Music Keyboard, forked and tracking @godiard, please send pull requests to @godiard's repository.
+URL: https://github.com/sugarlabs/music-keyboard-activity
+Primary Language: Python
+Stars: 0
+Forks: 0
+Topics: 
+Last Updated: 2022-06-26T22:30:22Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

@@ -1,0 +1,12 @@
+
+Repository: 2-cars-activity
+Description: An arcade game for Sugar XOs
+URL: https://github.com/sugarlabs/2-cars-activity
+Primary Language: Python
+Stars: 1
+Forks: 8
+Topics: 
+Last Updated: 2024-04-26T17:47:29Z
+Default Branch: master
+License: GNU General Public License v3.0
+---

@@ -1,0 +1,12 @@
+
+Repository: numberrush-activity
+Description: No description available
+URL: https://github.com/sugarlabs/numberrush-activity
+Primary Language: Python
+Stars: 0
+Forks: 5
+Topics: 
+Last Updated: 2022-07-27T12:33:03Z
+Default Branch: master
+License: GNU General Public License v2.0
+---

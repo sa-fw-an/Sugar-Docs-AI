@@ -1,0 +1,12 @@
+
+Repository: cookie-search-activity
+Description: No description available
+URL: https://github.com/sugarlabs/cookie-search-activity
+Primary Language: Python
+Stars: 1
+Forks: 12
+Topics: 
+Last Updated: 2024-11-01T03:26:59Z
+Default Branch: master
+License: GNU General Public License v3.0
+---
