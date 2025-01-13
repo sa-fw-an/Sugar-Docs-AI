@@ -81,6 +81,7 @@ This project is a chatbot for Sugar Labs using the Gemini API. The chatbot inter
 
 ## Usage
 
+### Using Backend and Frontend
 1. **Start the backend server:**
 
     ```sh
@@ -95,6 +96,16 @@ This project is a chatbot for Sugar Labs using the Gemini API. The chatbot inter
     ```
 
 3. **Open your browser and navigate to `http://localhost:3000` to interact with the chatbot.**
+
+### Running the Streamlit App
+
+1. **Run the Streamlit app:**
+
+    ```sh
+    streamlit run streamlit.py
+    ```
+
+3. **Open your browser and navigate to the URL provided by Streamlit (e.g., `http://localhost:8501`) to interact with the chatbot.**
 
 ## Contributing
 
