@@ -7,6 +7,9 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer, util
 import logging
+import base64
+from PIL import Image
+import io
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -58,68 +61,82 @@ def load_data():
     else:
         logger.error("No documents found in corpus!")
 
-
 @app.route('/api/chatbot', methods=['POST'])
 def chatbot():
     if not state.is_loaded:
         return jsonify({'error': 'Document corpus not loaded'}), 500
 
     user_input = request.json.get('input')
-    if not user_input:
+    image_data = request.json.get('image')
+    
+    if not user_input and not image_data:
         return jsonify({'error': 'No input provided'}), 400
 
     try:
-        query_embedding = embedder.encode(user_input, convert_to_tensor=True)
-        hits = util.semantic_search(query_embedding, state.corpus_embeddings, top_k=10)
-        
-        logger.info("All matches found:")
-        all_matches = []
-        for hit in hits[0]:
-            source = list(state.parsed_data.keys())[hit['corpus_id']]
-            score = hit['score']
-            content_preview = state.corpus[hit['corpus_id']][:100]  
-            all_matches.append({
-                'source': source,
-                'score': score,
-                'preview': content_preview
-            })
-            logger.info(f"Score: {score:.4f} | Source: {source} | Preview: {content_preview}...")
-
-        threshold = 0.2  
-        relevant_info = ""
         sources = []
-        
-        for hit in hits[0]:
-            if hit['score'] > threshold:
+        if image_data:
+            image_bytes = base64.b64decode(image_data)
+            image = Image.open(io.BytesIO(image_bytes))
+            prompt = f"You are a musicblocks teacher and knows a lot about musicblocks and music theory, users will ask you questions based on their images pleasae understand them and help and give Music Theory concepts .\n\nUser question: {user_input}"
+            response = model.generate_content([image, prompt])
+            return jsonify({
+                'response': response.text,
+                'sources': sources,
+                'debug': {}
+            })
+        else:
+            # Process text input with embeddings
+            query_embedding = embedder.encode(user_input, convert_to_tensor=True)
+            hits = util.semantic_search(query_embedding, state.corpus_embeddings, top_k=10)
+            
+            logger.info("All matches found:")
+            all_matches = []
+            for hit in hits[0]:
                 source = list(state.parsed_data.keys())[hit['corpus_id']]
-                sources.append(source)
-                doc_content = state.corpus[hit['corpus_id']][:1000]  
-                relevant_info += f"\n\nFrom {source} (relevance: {hit['score']:.2f}):\n{doc_content}"
+                score = hit['score']
+                content_preview = state.corpus[hit['corpus_id']][:100]  
+                all_matches.append({
+                    'source': source,
+                    'score': score,
+                    'preview': content_preview
+                })
+                logger.info(f"Score: {score:.4f} | Source: {source} | Preview: {content_preview}...")
 
-        prompt = f"""You are a Sugar Labs assistant. Answer the user's question based on the following documentation sections.
+            threshold = 0.2  
+            relevant_info = ""
+            
+            for hit in hits[0]:
+                if hit['score'] > threshold:
+                    source = list(state.parsed_data.keys())[hit['corpus_id']]
+                    sources.append(source)
+                    doc_content = state.corpus[hit['corpus_id']][:1000]  
+                    relevant_info += f"\n\nFrom {source} (relevance: {hit['score']:.2f}):\n{doc_content}"
+
+            prompt = f"""You are a Sugar Labs assistant. Answer the user's question based on the following documentation sections.
 If multiple sources provide relevant information, combine them in your response.
 Remember Sugar uses AGPLv3 license, so all contributions must be compatible with this license.
 Documentation sections:
 {relevant_info}
 Question: {user_input}
-Provide a clear and specific answer, citing the relevant documentation where possible. If the documentation you feel is incomplete you can answer based on your knowledge DO NOT say documentation doesn't say this or similar."""
+Provide a clear and specific answer, citing the relevant documentation where possible."""
 
-        response = model.generate_content(prompt)
+            response = model.generate_content(prompt)
         
-        return jsonify({
-            'response': response.text,
-            'sources': sources,
-            'debug': {
-                'docs_loaded': len(state.corpus),
-                'matches_found': len(sources),
-                'threshold': threshold,
-                'all_matches': all_matches  
-            }
-        })
+            return jsonify({
+                'response': response.text,
+                'sources': sources,
+                'debug': {
+                    'docs_loaded': len(state.corpus),
+                    'matches_found': len(sources),
+                    'threshold': threshold,
+                    'all_matches': all_matches  
+                }
+            })
 
     except Exception as e:
         logger.error(f"Error processing request: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
 logger.info("Initializing data...")
 load_data()
 
@@ -133,12 +150,19 @@ st.title("Sugar Labs Chatbot")
 st.write("Ask a question about contributing to Sugar Labs:")
 
 user_input = st.text_area("Your question:")
+uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg", "webp", "heic", "heif"])
 
 if st.button("Submit"):
-    if user_input.strip():
+    if user_input.strip() or uploaded_file:
         api_url = os.getenv("API_URL", "http://localhost:5000/api/chatbot")
+        data = {"input": user_input}
+        
+        if uploaded_file:
+            image_bytes = uploaded_file.read()
+            data["image"] = base64.b64encode(image_bytes).decode('utf-8')
+        
         try:
-            response = requests.post(api_url, json={"input": user_input})
+            response = requests.post(api_url, json=data)
             if response.status_code == 200:
                 data = response.json()
                 st.write("Chatbot response:")
@@ -150,18 +174,19 @@ if st.button("Submit"):
                         st.write(f"- {source}")
                 
                 with st.expander("Debug Information"):
-                    st.write("Documents loaded:", data['debug']['docs_loaded'])
-                    st.write("Matches found:", data['debug']['matches_found'])
-                    st.write("Similarity threshold:", data['debug']['threshold'])
+                    st.write("Documents loaded:", data['debug'].get('docs_loaded', 'N/A'))
+                    st.write("Matches found:", data['debug'].get('matches_found', 'N/A'))
+                    st.write("Similarity threshold:", data['debug'].get('threshold', 'N/A'))
                     
-                    st.write("\nAll matches (including below threshold):")
-                    for match in data['debug']['all_matches']:
-                        st.write(f"\nSource: {match['source']}")
-                        st.write(f"Score: {match['score']:.4f}")
-                        st.write("Preview:", match['preview'])
+                    if 'all_matches' in data['debug']:
+                        st.write("\nAll matches (including below threshold):")
+                        for match in data['debug']['all_matches']:
+                            st.write(f"\nSource: {match['source']}")
+                            st.write(f"Score: {match['score']:.4f}")
+                            st.write("Preview:", match['preview'])
             else:
                 st.error(f"Error: {response.status_code}")
         except requests.exceptions.ConnectionError:
             st.error("Error: Unable to connect to the API.")
     else:
-        st.warning("Please enter a question.")
+        st.warning("Please enter a question or upload an image.")

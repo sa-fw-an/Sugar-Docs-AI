@@ -5,3 +5,4 @@ google-generativeai
 python-dotenv
 sentence-transformers
 torch
+pillow
