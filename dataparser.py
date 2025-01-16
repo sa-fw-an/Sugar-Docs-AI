@@ -32,10 +32,11 @@ def save_content_by_topic(data, output_directory):
             output_file.write(content)
 
 def main():
-    src_directory = 'data/sugar-docs/src'
+    src_directories = ['data/sugar-docs/src', 'data/music-blocks']
     output_directory = 'parsed_data'
-    data = parse_markdown_files(src_directory)
-    save_content_by_topic(data, output_directory)
+    for src_directory in src_directories:
+        data = parse_markdown_files(src_directory)
+        save_content_by_topic(data, output_directory)
     print(f"Parsed content saved in {output_directory}")
 
 if __name__ == "__main__":

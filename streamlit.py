@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer, util
 import logging
 import base64
+import re
 from PIL import Image
 import io
 
@@ -30,10 +31,57 @@ class SharedState:
 
 state = SharedState()
 
+
+class Section:
+    def __init__(self, title, content, number):
+        self.title = title
+        self.content = content
+        self.number = number
+        self.subsections = []
+
+class GuideParser:
+    def __init__(self):
+        self.sections = {}
+        self.section_titles = []
+        
+    def parse_guide(self, content):
+        """Parse guide content into hierarchical sections"""
+        current_section = None
+        section_content = []
+        
+        for line in content.split('\n'):
+            if re.match(r'^\d+\.\d+(\.\d+)?\s+', line):  # Section number found
+                if current_section:
+                    self.sections[current_section.number] = current_section
+                
+                number = line.split()[0]
+                title = ' '.join(line.split()[1:])
+                current_section = Section(title, '', number)
+                self.section_titles.append(f"{number} {title}")
+            else:
+                if current_section:
+                    current_section.content += line + '\n'
+                    
+        return self.sections
+    
+    
+GUIDE_FILES = ['guidemusicblocks.txt', 'usingmusicblocks.txt']
+
 def load_data():
     """Load and prepare data before starting Flask"""
     logger.info("Starting data loading process...")
     
+    guide_parser = GuideParser()
+    
+    guide_path = os.path.join('parsed_data', 'guidemusicblocks.txt')
+    if os.path.exists(guide_path):
+        with open(guide_path, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+            state.guide_sections = guide_parser.parse_guide(content)
+            state.section_titles = guide_parser.section_titles
+            
+    guide_files = ['guidemusicblocks.txt', 'usingmusicblocks.txt']
+
     for root, _, files in os.walk('parsed_data'):
         logger.info(f"Processing directory: {root}")
         for file in files:
@@ -43,7 +91,9 @@ def load_data():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         content = f.read().strip()
                         if content:  
-                            if 'repo_' in file:
+                            if file in guide_files:
+                                content = f"GUIDE DOCUMENTATION: {content}"
+                            elif 'repo_' in file:
                                 content = f"Repository Information: {content}"
                             state.parsed_data[file] = content
                             state.corpus.append(content)
@@ -66,23 +116,84 @@ def chatbot():
     if not state.is_loaded:
         return jsonify({'error': 'Document corpus not loaded'}), 500
 
-    user_input = request.json.get('input')
+    user_input = request.json.get('input', '')
     image_data = request.json.get('image')
     
-    if not user_input and not image_data:
-        return jsonify({'error': 'No input provided'}), 400
-
     try:
         sources = []
         if image_data:
+            # Process image
             image_bytes = base64.b64decode(image_data)
             image = Image.open(io.BytesIO(image_bytes))
-            prompt = f"You are a musicblocks teacher and knows a lot about musicblocks and music theory, users will ask you questions based on their images pleasae understand them and help and give Music Theory concepts .\n\nUser question: {user_input}"
-            response = model.generate_content([image, prompt])
+            
+            image_prompt = "Describe this image in detail, focusing on any musical or programming elements visible in MusicBlocks."
+            image_description = model.generate_content([image, image_prompt]).text
+            
+            # Create guide files mapping with focus on MusicBlocks sections
+            musicblocks_files = ['guidemusicblocks.txt', 'usingmusicblocks.txt']
+            corpus_mapping = {file: idx for idx, file in enumerate(state.parsed_data.keys())}
+            musicblocks_indices = [idx for file, idx in corpus_mapping.items() 
+                                 if any(mb_file in file for mb_file in musicblocks_files)]
+            
+            # Create search query combining user input and image description
+            query = f"MusicBlocks Documentation: {user_input}\n{image_description}"
+            query_embedding = embedder.encode(query, convert_to_tensor=True)
+            
+            # Search specifically in MusicBlocks sections with higher threshold
+            musicblocks_embeddings = state.corpus_embeddings[musicblocks_indices]
+            section_hits = util.semantic_search(query_embedding, musicblocks_embeddings, top_k=3)
+            
+            # Map hits back to original indices and boost MusicBlocks section scores
+            mapped_hits = [{
+                'corpus_id': musicblocks_indices[hit['corpus_id']],
+                'score': hit['score'] * 1.2  # Boost MusicBlocks section relevance
+            } for hit in section_hits[0]]
+            
+            # Search full corpus with lower threshold
+            all_hits = util.semantic_search(query_embedding, state.corpus_embeddings, top_k=5)
+            
+            # Combine results preserving original indices
+            hits = mapped_hits + [
+                hit for hit in all_hits[0] 
+                if hit['corpus_id'] not in [h['corpus_id'] for h in mapped_hits]
+            ]
+            
+            all_matches = []
+            guide_threshold = 0.25
+            general_threshold = 0.2
+            relevant_info = ""
+            for hit in hits:
+                source = list(state.parsed_data.keys())[hit['corpus_id']]
+                is_guide = any(guide in source for guide in GUIDE_FILES)
+                threshold = guide_threshold if is_guide else general_threshold
+                
+                if hit['score'] > threshold:
+                    content_preview = state.corpus[hit['corpus_id']][:100]
+                    all_matches.append({
+                        'source': source,
+                        'score': hit['score'],
+                        'preview': content_preview
+                    })
+                    sources.append(source)
+                    relevant_info += f"\n\nFrom {source} (relevance: {hit['score']:.2f}):\n{state.corpus[hit['corpus_id']][:2000]}"
+
+            prompt = f"""You are a musicblocks teacher and knows a lot about musicblocks and music theory, users will ask you questions based on their images pleasae understand them and help and give Music Theory concepts. Please help the student based on the user input, image might not have what they are asking so guide them using documentation and tell them to search using search widget on the site. But students will ask you questions based on the image as well and you have to help them.
+User question: {user_input}
+Image description: {image_description}
+Documentation: {relevant_info}. If you didn't find anything relevant in documentation then you can use your own knowledge to answer the question."""
+
+            response = model.generate_content(prompt)
+            
             return jsonify({
                 'response': response.text,
                 'sources': sources,
-                'debug': {}
+                'image_description': image_description,
+                'debug': {
+                    'docs_loaded': len(state.corpus),
+                    'matches_found': len(sources),
+                    'threshold': threshold,
+                    'all_matches': all_matches
+                }
             })
         else:
             # Process text input with embeddings
@@ -165,11 +276,15 @@ if st.button("Submit"):
             response = requests.post(api_url, json=data)
             if response.status_code == 200:
                 data = response.json()
-                st.write("Chatbot response:")
+                st.write("# Chatbot response:")
                 st.write(data['response'])
                 
+                if data['image_description']:
+                    st.write("\n# Image description:")
+                    st.write(data['image_description'])
+                    
                 if data['sources']:
-                    st.write("\nSources used:")
+                    st.write("\n**Sources used:**")
                     for source in data['sources']:
                         st.write(f"- {source}")
                 
