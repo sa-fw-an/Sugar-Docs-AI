@@ -279,7 +279,7 @@ if st.button("Submit"):
                 st.write("# Chatbot response:")
                 st.write(data['response'])
                 
-                if data['image_description']:
+                if data.get('image_description'):
                     st.write("\n# Image description:")
                     st.write(data['image_description'])
                     
