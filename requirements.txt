@@ -6,3 +6,4 @@ python-dotenv
 sentence-transformers
 torch
 pillow
+matrix-client
