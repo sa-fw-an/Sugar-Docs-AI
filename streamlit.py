@@ -11,6 +11,12 @@ import base64
 import re
 from PIL import Image
 import io
+# Add to imports
+from matrix_client.client import MatrixClient
+from matrix_client.api import MatrixRequestError
+import asyncio
+import time
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -30,6 +36,112 @@ class SharedState:
         self.is_loaded = False
 
 state = SharedState()
+
+
+class MatrixBot:
+    def __init__(self, state, api_url):
+        self.state = state
+        self.api_url = api_url
+        self.client = MatrixClient(os.getenv('MATRIX_HOMESERVER', 'https://matrix.org'))
+        self.messages = []
+        self.connected = False
+        self.retry_count = 0
+        self.max_retries = 3
+        self.is_thinking = False
+
+    def message_handler(self, room, event):
+        """
+        Handle inbound Matrix events, log everything for debug.
+        """
+        logger.info(f"Received Matrix event: {event}")
+        if event['type'] == "m.room.message":
+            msgtype = event['content']['msgtype']
+            body = event['content']['body']
+            sender = event['sender']
+            logger.info(f"Matrix message from {sender} of type {msgtype}: {body}")
+            
+            if msgtype == "m.text" and body.startswith('!ask'):
+                query = body[5:].strip()
+                logger.info(f"Processing query: {query}")
+                try:
+                    self.is_thinking = True
+                    self.room.send_text("🤔 Thinking...")
+                    logger.info("Sent 'Thinking...' to room")
+                    
+                    response = requests.post(self.api_url, json={"input": query})
+                    logger.info(f"Chatbot API status: {response.status_code}")
+                    if response.status_code == 200:
+                        data = response.json()
+                        logger.info(f"Chatbot response data: {data}")
+                        self.room.send_text(data['response'])
+                        self.messages.append({
+                            'query': query,
+                            'response': data['response'],
+                            'sources': data.get('sources', []),
+                            'timestamp': time.strftime('%H:%M:%S'),
+                            'debug': data.get('debug', {})
+                        })
+                    else:
+                        logger.error(f"Chatbot API returned error code: {response.status_code}")
+                        self.room.send_text("Sorry, internal error from chatbot API.")
+                except Exception as e:
+                    logger.error(f"Error processing Matrix message: {e}")
+                    self.room.send_text("Sorry, there was an error processing your request.")
+                finally:
+                    self.is_thinking = False
+                    logger.info("Finished processing query")
+
+    def connect(self):
+        """
+        Connect and join the specified Matrix room with retries. Log all steps.
+        """
+        while self.retry_count < self.max_retries:
+            try:
+                logger.info(f"Login attempt {self.retry_count + 1} as {os.getenv('MATRIX_USERNAME')}")
+                
+                # Clean up username
+                username = os.getenv('MATRIX_USERNAME')
+                if '@' in username:
+                    username = username.split(':')[0].replace('@', '')
+                
+                self.token = self.client.login(
+                    username=username,
+                    password=os.getenv('MATRIX_PASSWORD')
+                )
+                logger.info("Login successful")
+                
+                room_id = os.getenv('MATRIX_ROOM_ID')
+                logger.info(f"Attempting to join room {room_id}")
+                
+                try:
+                    self.room = self.client.join_room(room_id)
+                    logger.info(f"Joined room {room_id}")
+                    self.room.add_listener(self.message_handler)
+                    self.connected = True
+                    logger.info("Matrix bot ready")
+                    
+                    # Start listener thread
+                    threading.Thread(target=self.client.listen_forever, daemon=True).start()
+                    return True
+                    
+                except MatrixRequestError as e:
+                    logger.error(f"Room join error: {e}, code={e.code}")
+                    if e.code == 403:
+                        logger.error("Need room invite first")
+                        return False
+                    raise
+                    
+            except MatrixRequestError as e:
+                logger.error(f"Matrix login error: {str(e)}")
+                self.retry_count += 1
+                if self.retry_count < self.max_retries:
+                    time.sleep(5)
+            except Exception as e:
+                logger.error(f"Unexpected error: {str(e)}")
+                return False
+                
+        logger.error("Max retries reached - Matrix connection failed")
+        return False
 
 
 class Section:
@@ -258,7 +370,12 @@ def run_flask():
 threading.Thread(target=run_flask).start()
 
 st.title("Sugar Labs Chatbot")
-st.write("Ask a question about contributing to Sugar Labs:")
+
+# Add Matrix tab
+tab1, tab2 = st.tabs(["Direct Chat", "Matrix Channel"])
+
+with tab1:
+    st.write("Ask a question about contributing to Sugar Labs:")
 
 user_input = st.text_area("Your question:")
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg", "webp", "heic", "heif"])
@@ -305,3 +422,31 @@ if st.button("Submit"):
             st.error("Error: Unable to connect to the API.")
     else:
         st.warning("Please enter a question or upload an image.")
+    
+with tab2:
+    st.write("Matrix Channel Messages")
+    if 'matrix_bot' not in st.session_state:
+        st.info("Initializing Matrix bot...")
+        st.session_state.matrix_bot = MatrixBot(state, os.getenv("API_URL", "http://localhost:5000/api/chatbot"))
+        threading.Thread(target=st.session_state.matrix_bot.connect).start()
+    
+    # Show connection status
+    if st.session_state.matrix_bot.connected:
+        st.success("Connected to Matrix room")
+    else:
+        st.error("Not connected to Matrix room. Please check credentials and room invite.")
+        
+    # Display Matrix messages
+    for msg in st.session_state.matrix_bot.messages:
+        st.write(f"**Question:** {msg['query']}")
+        st.write(f"**Answer:** {msg['response']}")
+        if msg['sources']:
+            st.write("**Sources:**")
+            for source in msg['sources']:
+                st.write(f"- {source}")
+        with st.expander("Debug Info"):
+            st.write(msg['debug'])
+    
+    # Auto-refresh
+    if st.button("Refresh Messages"):
+        st.rerun()
