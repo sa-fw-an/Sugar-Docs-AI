@@ -48,6 +48,8 @@ class MatrixBot:
         self.retry_count = 0
         self.max_retries = 3
         self.is_thinking = False
+        self.lock = threading.lock()
+        self.request_in_progress = False
 
     def message_handler(self, room, event):
         """
@@ -62,6 +64,12 @@ class MatrixBot:
             
             if msgtype == "m.text" and body.startswith('!ask'):
                 query = body[5:].strip()
+                with self.lock:
+                    if self.request_in_progress:
+                        self.room.send_text("Another request is being processed. Please wait.")
+                        return
+                    self.request_in_progress = True
+
                 logger.info(f"Processing query: {query}")
                 try:
                     self.is_thinking = True
@@ -88,6 +96,8 @@ class MatrixBot:
                     logger.error(f"Error processing Matrix message: {e}")
                     self.room.send_text("Sorry, there was an error processing your request.")
                 finally:
+                    with self.lock:
+                        self.request_in_progress = False
                     self.is_thinking = False
                     logger.info("Finished processing query")
 
@@ -369,9 +379,14 @@ def run_flask():
 
 threading.Thread(target=run_flask).start()
 
+
+
+if "request_in_progress" not in st.session_state:
+    st.session_state.request_in_progress = False
+    
+
 st.title("Sugar Labs Chatbot")
 
-# Add Matrix tab
 tab1, tab2 = st.tabs(["Direct Chat", "Matrix Channel"])
 
 with tab1:
@@ -430,13 +445,12 @@ with tab2:
         st.session_state.matrix_bot = MatrixBot(state, os.getenv("API_URL", "http://localhost:5000/api/chatbot"))
         threading.Thread(target=st.session_state.matrix_bot.connect).start()
     
-    # Show connection status
     if st.session_state.matrix_bot.connected:
         st.success("Connected to Matrix room")
     else:
         st.error("Not connected to Matrix room. Please check credentials and room invite.")
         
-    # Display Matrix messages
+    # Display Matrix messages 
     for msg in st.session_state.matrix_bot.messages:
         st.write(f"**Question:** {msg['query']}")
         st.write(f"**Answer:** {msg['response']}")
