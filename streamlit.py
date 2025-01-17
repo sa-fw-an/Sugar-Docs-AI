@@ -48,7 +48,7 @@ class MatrixBot:
         self.retry_count = 0
         self.max_retries = 3
         self.is_thinking = False
-        self.lock = threading.lock()
+        self.lock = threading.Lock()
         self.request_in_progress = False
 
     def message_handler(self, room, event):
