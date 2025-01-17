@@ -25,7 +25,7 @@ app = Flask(__name__)
 load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
 class SharedState:
