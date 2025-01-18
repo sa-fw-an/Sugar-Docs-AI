@@ -27,7 +27,18 @@ load_dotenv()
 api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
-embedder = SentenceTransformer('all-MiniLM-L6-v2')
+
+# normal
+# embedder = SentenceTransformer('all-MiniLM-L6-v2')
+
+#light 
+# embedder = SentenceTransformer('paraphrase-MiniLM-L12-v2')
+
+# mediun 
+embedder = SentenceTransformer('paraphrase-mpnet-base-v2')
+
+#large
+# embedder = SentenceTransformer('roberta-large')
 
 class SharedState:
     def __init__(self):
