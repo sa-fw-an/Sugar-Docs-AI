@@ -14,8 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Replace the below URL with the actual Ollama installation script or method
 # Ensure you follow Ollama's official installation guide
 # Example placeholder:
-# RUN curl -L https://ollama.com/install.sh | bash
-
+RUN curl -L https://ollama.com/install.sh | bash
 # Create and set the working directory
 WORKDIR /app
 

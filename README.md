@@ -9,6 +9,32 @@ This project is a chatbot for Sugar Labs using the Gemini API. The chatbot inter
 - npm or yarn
 - Virtual environment (optional but recommended)
 
+## Docker Image
+
+### Prerequisites
+
+- Docker
+
+### Step 1: Pull the Docker Image
+
+Pull the Docker image from Docker Hub:
+
+```bash
+docker pull mostlyk/sugar-docs-ai:latest
+```
+
+### Step 2: Run the docker Container
+
+```bash
+docker run -p 5000:5000 -p 8501:8501 --name containedlocal_app mostlyk/sugar-docs-ai:latest
+```
+
+### Step 3: Access the Application
+
+- Streamlit UI: Open your browser and navigate to http://localhost:8501
+- Flask API: Accessible at http://localhost:5000/api/chatbot
+
+
 ## Setup
 
 ### Backend

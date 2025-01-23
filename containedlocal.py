@@ -201,7 +201,7 @@ if not check_ollama_connection():
                 st.warning("Ollama is already running.")
 
         if st.session_state.ollama_process:
-            model_choice = st.session_state.get('model_choice', 'deepseek-r1:7b')
+            model_choice = st.session_state.get('model_choice', 'deepseek-r1:1.5b')
             with st.spinner(f"Pulling model '{model_choice}'..."):
                 try:
                     pull(model_choice)
