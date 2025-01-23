@@ -17,10 +17,14 @@ This project is a chatbot for Sugar Labs using the Gemini API. The chatbot inter
 
 ### Step 1: Pull the Docker Image
 
-Pull the Docker image from Docker Hub:
+Pull the Docker image from Docker Hub / Github:
 
 ```bash
 docker pull mostlyk/sugar-docs-ai:latest
+```
+
+```bash
+docker pull ghcr.io/mostlykiguess/sugar-docs-ai:latest
 ```
 
 ### Step 2: Run the docker Container
