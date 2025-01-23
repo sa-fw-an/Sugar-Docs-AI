@@ -32,10 +32,10 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 # embedder = SentenceTransformer('all-MiniLM-L6-v2')
 
 #light 
-# embedder = SentenceTransformer('paraphrase-MiniLM-L12-v2')
+embedder = SentenceTransformer('paraphrase-MiniLM-L12-v2')
 
 # mediun 
-embedder = SentenceTransformer('paraphrase-mpnet-base-v2')
+# embedder = SentenceTransformer('paraphrase-mpnet-base-v2')
 
 #large
 # embedder = SentenceTransformer('roberta-large')
