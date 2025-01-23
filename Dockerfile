@@ -19,8 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Create and set the working directory
 WORKDIR /app
 
-# Copy requirements.txt and install Python dependencies
-COPY requirements.txt /app/
+COPY requirements_for_local.txt /app/
 RUN pip install --no-cache-dir -r requirements_for_local.txt
 
 # Copy the rest of the application code

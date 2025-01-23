@@ -105,7 +105,21 @@ This project is a chatbot for Sugar Labs using the Gemini API. The chatbot inter
     streamlit run streamlit.py
     ```
 
-3. **Open your browser and navigate to the URL provided by Streamlit (e.g., `http://localhost:8501`) to interact with the chatbot.**
+2. **Open your browser and navigate to the URL provided by Streamlit (e.g., `http://localhost:8501`) to interact with the chatbot.**
+
+
+### Using the purely local Streamlit App
+
+1. **Run the Streamlit app:**
+
+    ```sh
+    streamlit run containedlocal.py
+    ```
+
+2. **Open your browser and navigate to the URL provided by Streamlit (e.g., `http://localhost:8501`) to interact with the chatbot.**
+
+
+#### NOTES: make sure you have ollama installed and do pip isntall requirements_for_local for this one.
 
 ## Contributing
 
